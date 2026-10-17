@@ -1,0 +1,26 @@
+{
+  "_meta": {
+    "popis": "Doby kroků přípravy a okna platnosti pro časovou osu. Ukázka: hodnoty nastaví VFN. 'odhad: true' = bez zdroje, v UI se ukáže jako odhad.",
+    "aktualizace": "2026-10-16"
+  },
+  "kroky": {
+    "predop": { "label": "Předoperační vyšetření", "dny": [7, 14], "platnost": 21, "odhad": true, "zdroj": "Platnost 21 dní: leták VFN (prs). Doba trvání bez zdroje." },
+    "lab": { "label": "Odběr krve", "dny": [3, 7], "platnost": 14, "odhad": true, "zdroj": "Platnost Hb 14 dní: zadání VFN. Doba trvání bez zdroje." },
+    "ekg": { "label": "EKG", "dny": [3, 7], "platnost": 28, "odhad": true, "zdroj": "Platnost 4 týdny: KNTB. Doba trvání bez zdroje." },
+    "rtg": { "label": "RTG plic", "dny": [7, 14], "odhad": true, "zdroj": "Bez zdroje." },
+    "leky": { "label": "Seznam léků", "dny": [1, 3], "odhad": true, "zdroj": "Bez zdroje." },
+    "dotaznik": { "label": "Dotazník", "dny": [1, 3], "odhad": true, "zdroj": "Bez zdroje." },
+    "kardiolog": { "label": "Kardiolog", "dny": [56, 84], "odhad": false, "zdroj": "VFN, seznam čekacích dob 17. 1. 2025: kardiologická ambulance 8 až 12 týdnů." },
+    "echo": { "label": "Echokardiografie", "dny": [28, 42], "odhad": false, "zdroj": "VFN, seznam čekacích dob 17. 1. 2025: 4 až 6 týdnů." },
+    "pneumolog": { "label": "Pneumolog", "dny": [84, 112], "odhad": false, "zdroj": "VFN, seznam čekacích dob 17. 1. 2025: 12 až 16 týdnů." },
+    "hematolog": { "label": "Hematolog", "dny": [28, 28], "odhad": false, "zdroj": "VFN, seznam čekacích dob 17. 1. 2025: 4 týdny (nový pacient)." },
+    "zelezo": { "label": "Nitrožilní železo", "dny": [3, 7], "odhad": true, "zdroj": "Účinek: podání víc než 2 týdny před zákrokem (i-JMR 2022, retrospektivní). Doba do infuze bez zdroje." },
+    "aa": { "label": "Konzultace v AA", "dny": [1, 3], "odhad": true, "zdroj": "Bez zdroje, potvrdí VFN." }
+  },
+  "zelezo": {
+    "iv_nejpozdeji_pred_zakrokem": 14,
+    "peroralni_od": 42,
+    "zdroj": "Konsenzus PBM (Muñoz a kol., Anaesthesia 2017): perorální železo při 6 až 8 týdnech, nitrožilní pod 6 týdnů."
+  },
+  "konzilia": ["kardiolog", "echo", "pneumolog", "hematolog"]
+}

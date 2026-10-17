@@ -1,0 +1,2119 @@
+{
+  "_info": "Export ze http://localhost:52773/fhir/r4, 2026-10-16T21:40:27.735Z. Pacienti od InterSystems (Synthea).",
+  "patients": [
+    {
+      "fhirId": "33",
+      "given": "Alisia5",
+      "family": "Ziemann98",
+      "birthDate": "1956-03-15",
+      "gender": "female",
+      "deceased": false,
+      "identifiers": [
+        {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "b177c416-9498-48f4-a1dd-86646819fe4a"
+        },
+        {
+          "system": "http://hospital.smarthealthit.org",
+          "value": "b177c416-9498-48f4-a1dd-86646819fe4a"
+        },
+        {
+          "system": "http://hl7.org/fhir/sid/us-ssn",
+          "value": "999-95-9456"
+        },
+        {
+          "system": "urn:oid:2.16.840.1.113883.4.3.25",
+          "value": "S99987850"
+        },
+        {
+          "system": "http://standardhealthrecord.org/fhir/StructureDefinition/passportNumber",
+          "value": "X75188913X"
+        }
+      ],
+      "conditions": [
+        {
+          "text": "Body mass index 30+ - obesity (finding)",
+          "snomed": "162864005",
+          "status": "active",
+          "onset": "1993-06-03"
+        },
+        {
+          "text": "Prediabetes",
+          "snomed": "15777000",
+          "status": "active",
+          "onset": "1996-03-21"
+        },
+        {
+          "text": "Anemia (disorder)",
+          "snomed": "271737000",
+          "status": "active",
+          "onset": "2000-03-30"
+        },
+        {
+          "text": "Acute viral pharyngitis (disorder)",
+          "snomed": "195662009",
+          "status": "resolved",
+          "onset": "2018-12-29"
+        },
+        {
+          "text": "Streptococcal sore throat (disorder)",
+          "snomed": "43878008",
+          "status": "resolved",
+          "onset": "2021-03-28"
+        },
+        {
+          "text": "Viral sinusitis (disorder)",
+          "snomed": "444814009",
+          "status": "resolved",
+          "onset": "2021-06-20"
+        },
+        {
+          "text": "Acute viral pharyngitis (disorder)",
+          "snomed": "195662009",
+          "status": "resolved",
+          "onset": "2022-07-02"
+        }
+      ],
+      "medications": [],
+      "allergies": [],
+      "latest": {
+        "8302-2": {
+          "label": "Body Height",
+          "value": 172.7,
+          "unit": "cm",
+          "date": "2025-07-03"
+        },
+        "72514-3": {
+          "label": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "value": 3,
+          "unit": "{score}",
+          "date": "2025-07-03"
+        },
+        "29463-7": {
+          "label": "Body Weight",
+          "value": 81.2,
+          "unit": "kg",
+          "date": "2025-07-03"
+        },
+        "39156-5": {
+          "label": "Body Mass Index",
+          "value": 27.23,
+          "unit": "kg/m2",
+          "date": "2025-07-03"
+        },
+        "2339-0": {
+          "label": "Glucose",
+          "value": 78.8,
+          "unit": "mg/dL",
+          "date": "2025-07-03"
+        },
+        "6299-2": {
+          "label": "Urea Nitrogen",
+          "value": 12.52,
+          "unit": "mg/dL",
+          "date": "2025-07-03"
+        },
+        "38483-4": {
+          "label": "Creatinine",
+          "value": 0.68,
+          "unit": "mg/dL",
+          "date": "2025-07-03"
+        },
+        "49765-1": {
+          "label": "Calcium",
+          "value": 9.51,
+          "unit": "mg/dL",
+          "date": "2025-07-03"
+        },
+        "2947-0": {
+          "label": "Sodium",
+          "value": 143.23,
+          "unit": "mmol/L",
+          "date": "2025-07-03"
+        },
+        "6298-4": {
+          "label": "Potassium",
+          "value": 4.56,
+          "unit": "mmol/L",
+          "date": "2025-07-03"
+        },
+        "2069-3": {
+          "label": "Chloride",
+          "value": 103.01,
+          "unit": "mmol/L",
+          "date": "2025-07-03"
+        },
+        "20565-8": {
+          "label": "Carbon Dioxide",
+          "value": 27.44,
+          "unit": "mmol/L",
+          "date": "2025-07-03"
+        },
+        "4548-4": {
+          "label": "Hemoglobin A1c/Hemoglobin.total in Blood",
+          "value": 6.37,
+          "unit": "%",
+          "date": "2025-07-03"
+        },
+        "2093-3": {
+          "label": "Total Cholesterol",
+          "value": 182.32,
+          "unit": "mg/dL",
+          "date": "2024-06-27"
+        },
+        "2571-8": {
+          "label": "Triglycerides",
+          "value": 146.95,
+          "unit": "mg/dL",
+          "date": "2024-06-27"
+        },
+        "18262-6": {
+          "label": "Low Density Lipoprotein Cholesterol",
+          "value": 88.24,
+          "unit": "mg/dL",
+          "date": "2024-06-27"
+        },
+        "2085-9": {
+          "label": "High Density Lipoprotein Cholesterol",
+          "value": 64.69,
+          "unit": "mg/dL",
+          "date": "2024-06-27"
+        },
+        "6690-2": {
+          "label": "Leukocytes [#/volume] in Blood by Automated count",
+          "value": 8.5378,
+          "unit": "10*3/uL",
+          "date": "2023-06-22"
+        },
+        "789-8": {
+          "label": "Erythrocytes [#/volume] in Blood by Automated count",
+          "value": 4.3068,
+          "unit": "10*6/uL",
+          "date": "2023-06-22"
+        },
+        "718-7": {
+          "label": "Hemoglobin [Mass/volume] in Blood",
+          "value": 17.313,
+          "unit": "g/dL",
+          "date": "2023-06-22"
+        },
+        "4544-3": {
+          "label": "Hematocrit [Volume Fraction] of Blood by Automated count",
+          "value": 36.389,
+          "unit": "%",
+          "date": "2023-06-22"
+        },
+        "787-2": {
+          "label": "MCV [Entitic volume] by Automated count",
+          "value": 88.221,
+          "unit": "fL",
+          "date": "2023-06-22"
+        },
+        "785-6": {
+          "label": "MCH [Entitic mass] by Automated count",
+          "value": 32.586,
+          "unit": "pg",
+          "date": "2023-06-22"
+        },
+        "786-4": {
+          "label": "MCHC [Mass/volume] by Automated count",
+          "value": 35.034,
+          "unit": "g/dL",
+          "date": "2023-06-22"
+        },
+        "21000-5": {
+          "label": "Erythrocyte distribution width [Entitic volume] by Automated count",
+          "value": 42.895,
+          "unit": "fL",
+          "date": "2023-06-22"
+        },
+        "777-3": {
+          "label": "Platelets [#/volume] in Blood by Automated count",
+          "value": 426.15,
+          "unit": "10*3/uL",
+          "date": "2023-06-22"
+        },
+        "32207-3": {
+          "label": "Platelet distribution width [Entitic volume] in Blood by Automated count",
+          "value": 380.95,
+          "unit": "fL",
+          "date": "2023-06-22"
+        },
+        "32623-1": {
+          "label": "Platelet mean volume [Entitic volume] in Blood by Automated count",
+          "value": 11.74,
+          "unit": "fL",
+          "date": "2023-06-22"
+        },
+        "8331-1": {
+          "label": "Oral temperature",
+          "value": 37.369,
+          "unit": "Cel",
+          "date": "2022-07-02"
+        }
+      }
+    },
+    {
+      "fhirId": "32",
+      "given": "Aurora248",
+      "family": "Hoeger474",
+      "birthDate": "2023-05-30",
+      "gender": "female",
+      "deceased": false,
+      "identifiers": [
+        {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "8db78730-55a4-4832-bfbb-9a0e749a1596"
+        },
+        {
+          "system": "http://hospital.smarthealthit.org",
+          "value": "8db78730-55a4-4832-bfbb-9a0e749a1596"
+        },
+        {
+          "system": "http://hl7.org/fhir/sid/us-ssn",
+          "value": "999-50-1207"
+        }
+      ],
+      "conditions": [
+        {
+          "text": "Otitis media",
+          "snomed": "65363002",
+          "status": "resolved",
+          "onset": "2024-01-25"
+        },
+        {
+          "text": "Viral sinusitis (disorder)",
+          "snomed": "444814009",
+          "status": "resolved",
+          "onset": "2024-08-29"
+        },
+        {
+          "text": "Acute bronchitis (disorder)",
+          "snomed": "10509002",
+          "status": "resolved",
+          "onset": "2024-11-21"
+        }
+      ],
+      "medications": [
+        {
+          "text": "Amoxicillin 250 MG Oral Capsule",
+          "status": "stopped",
+          "date": "2024-01-25"
+        },
+        {
+          "text": "Ibuprofen 100 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2024-01-25"
+        },
+        {
+          "text": "Acetaminophen 325 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2024-11-21"
+        }
+      ],
+      "allergies": [],
+      "latest": {
+        "8302-2": {
+          "label": "Body Height",
+          "value": 87.3,
+          "unit": "cm",
+          "date": "2025-05-06"
+        },
+        "72514-3": {
+          "label": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "value": 0,
+          "unit": "{score}",
+          "date": "2025-05-06"
+        },
+        "29463-7": {
+          "label": "Body Weight",
+          "value": 12.8,
+          "unit": "kg",
+          "date": "2025-05-06"
+        },
+        "77606-2": {
+          "label": "Weight-for-length Per age and sex",
+          "value": 71.275,
+          "unit": "%",
+          "date": "2025-05-06"
+        },
+        "6690-2": {
+          "label": "Leukocytes [#/volume] in Blood by Automated count",
+          "value": 7.0211,
+          "unit": "10*3/uL",
+          "date": "2023-05-30"
+        },
+        "789-8": {
+          "label": "Erythrocytes [#/volume] in Blood by Automated count",
+          "value": 5.4112,
+          "unit": "10*6/uL",
+          "date": "2023-05-30"
+        },
+        "718-7": {
+          "label": "Hemoglobin [Mass/volume] in Blood",
+          "value": 12.558,
+          "unit": "g/dL",
+          "date": "2023-05-30"
+        },
+        "4544-3": {
+          "label": "Hematocrit [Volume Fraction] of Blood by Automated count",
+          "value": 45.997,
+          "unit": "%",
+          "date": "2023-05-30"
+        },
+        "787-2": {
+          "label": "MCV [Entitic volume] by Automated count",
+          "value": 81.969,
+          "unit": "fL",
+          "date": "2023-05-30"
+        },
+        "785-6": {
+          "label": "MCH [Entitic mass] by Automated count",
+          "value": 31.06,
+          "unit": "pg",
+          "date": "2023-05-30"
+        },
+        "786-4": {
+          "label": "MCHC [Mass/volume] by Automated count",
+          "value": 34.59,
+          "unit": "g/dL",
+          "date": "2023-05-30"
+        },
+        "21000-5": {
+          "label": "Erythrocyte distribution width [Entitic volume] by Automated count",
+          "value": 40.914,
+          "unit": "fL",
+          "date": "2023-05-30"
+        },
+        "777-3": {
+          "label": "Platelets [#/volume] in Blood by Automated count",
+          "value": 163.32,
+          "unit": "10*3/uL",
+          "date": "2023-05-30"
+        },
+        "32207-3": {
+          "label": "Platelet distribution width [Entitic volume] in Blood by Automated count",
+          "value": 239.93,
+          "unit": "fL",
+          "date": "2023-05-30"
+        },
+        "32623-1": {
+          "label": "Platelet mean volume [Entitic volume] in Blood by Automated count",
+          "value": 11.728,
+          "unit": "fL",
+          "date": "2023-05-30"
+        }
+      }
+    },
+    {
+      "fhirId": "736",
+      "given": "Lakita48",
+      "family": "Jacobson885",
+      "birthDate": "1980-06-16",
+      "gender": "female",
+      "deceased": false,
+      "identifiers": [
+        {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "b0e78a29-a35e-4cec-a06d-9b729ffe0d4e"
+        },
+        {
+          "system": "http://hospital.smarthealthit.org",
+          "value": "b0e78a29-a35e-4cec-a06d-9b729ffe0d4e"
+        },
+        {
+          "system": "http://hl7.org/fhir/sid/us-ssn",
+          "value": "999-27-7425"
+        },
+        {
+          "system": "urn:oid:2.16.840.1.113883.4.3.25",
+          "value": "S99948229"
+        },
+        {
+          "system": "http://standardhealthrecord.org/fhir/StructureDefinition/passportNumber",
+          "value": "X35000229X"
+        }
+      ],
+      "conditions": [
+        {
+          "text": "Hypertension",
+          "snomed": "59621000",
+          "status": "active",
+          "onset": "1998-08-10"
+        },
+        {
+          "text": "Prediabetes",
+          "snomed": "15777000",
+          "status": "active",
+          "onset": "2005-09-19"
+        },
+        {
+          "text": "Anemia (disorder)",
+          "snomed": "271737000",
+          "status": "active",
+          "onset": "2005-09-19"
+        },
+        {
+          "text": "Miscarriage in first trimester",
+          "snomed": "19169002",
+          "status": "active",
+          "onset": "2015-01-26"
+        },
+        {
+          "text": "Normal pregnancy",
+          "snomed": "72892002",
+          "status": "resolved",
+          "onset": "2016-02-15"
+        },
+        {
+          "text": "Concussion with loss of consciousness",
+          "snomed": "62564004",
+          "status": "resolved",
+          "onset": "2019-07-11"
+        },
+        {
+          "text": "Viral sinusitis (disorder)",
+          "snomed": "444814009",
+          "status": "resolved",
+          "onset": "2023-07-11"
+        },
+        {
+          "text": "Viral sinusitis (disorder)",
+          "snomed": "444814009",
+          "status": "resolved",
+          "onset": "2024-07-02"
+        },
+        {
+          "text": "Acute viral pharyngitis (disorder)",
+          "snomed": "195662009",
+          "status": "resolved",
+          "onset": "2025-04-25"
+        }
+      ],
+      "medications": [
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "1998-09-09"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "1999-08-16"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2000-08-21"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2001-08-27"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2002-09-02"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2003-09-08"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2004-09-13"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2005-09-19"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2005-09-19"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2006-09-25"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2007-10-01"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2008-10-06"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2009-10-12"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2010-10-18"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2011-10-24"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2012-10-29"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2013-11-04"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2014-07-28"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2014-11-10"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2015-11-16"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2016-11-21"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2017-11-27"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2018-12-03"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2019-12-09"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2020-12-14"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2021-12-20"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2022-12-26"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2023-07-17"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2024-01-01"
+        },
+        {
+          "text": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet",
+          "status": "active",
+          "date": "2025-01-06"
+        }
+      ],
+      "allergies": [],
+      "latest": {
+        "8302-2": {
+          "label": "Body Height",
+          "value": 170.6,
+          "unit": "cm",
+          "date": "2025-01-06"
+        },
+        "72514-3": {
+          "label": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "value": 2,
+          "unit": "{score}",
+          "date": "2025-01-06"
+        },
+        "29463-7": {
+          "label": "Body Weight",
+          "value": 84.6,
+          "unit": "kg",
+          "date": "2025-01-06"
+        },
+        "39156-5": {
+          "label": "Body Mass Index",
+          "value": 29.08,
+          "unit": "kg/m2",
+          "date": "2025-01-06"
+        },
+        "2339-0": {
+          "label": "Glucose",
+          "value": 84.88,
+          "unit": "mg/dL",
+          "date": "2025-01-06"
+        },
+        "6299-2": {
+          "label": "Urea Nitrogen",
+          "value": 7.06,
+          "unit": "mg/dL",
+          "date": "2025-01-06"
+        },
+        "38483-4": {
+          "label": "Creatinine",
+          "value": 0.98,
+          "unit": "mg/dL",
+          "date": "2025-01-06"
+        },
+        "49765-1": {
+          "label": "Calcium",
+          "value": 8.8,
+          "unit": "mg/dL",
+          "date": "2025-01-06"
+        },
+        "2947-0": {
+          "label": "Sodium",
+          "value": 138.44,
+          "unit": "mmol/L",
+          "date": "2025-01-06"
+        },
+        "6298-4": {
+          "label": "Potassium",
+          "value": 4.44,
+          "unit": "mmol/L",
+          "date": "2025-01-06"
+        },
+        "2069-3": {
+          "label": "Chloride",
+          "value": 104.81,
+          "unit": "mmol/L",
+          "date": "2025-01-06"
+        },
+        "20565-8": {
+          "label": "Carbon Dioxide",
+          "value": 28.28,
+          "unit": "mmol/L",
+          "date": "2025-01-06"
+        },
+        "4548-4": {
+          "label": "Hemoglobin A1c/Hemoglobin.total in Blood",
+          "value": 6.19,
+          "unit": "%",
+          "date": "2025-01-06"
+        },
+        "2093-3": {
+          "label": "Total Cholesterol",
+          "value": 162.91,
+          "unit": "mg/dL",
+          "date": "2022-12-26"
+        },
+        "2571-8": {
+          "label": "Triglycerides",
+          "value": 137.5,
+          "unit": "mg/dL",
+          "date": "2022-12-26"
+        },
+        "18262-6": {
+          "label": "Low Density Lipoprotein Cholesterol",
+          "value": 58.31,
+          "unit": "mg/dL",
+          "date": "2022-12-26"
+        },
+        "2085-9": {
+          "label": "High Density Lipoprotein Cholesterol",
+          "value": 77.1,
+          "unit": "mg/dL",
+          "date": "2022-12-26"
+        },
+        "6690-2": {
+          "label": "Leukocytes [#/volume] in Blood by Automated count",
+          "value": 7.9073,
+          "unit": "10*3/uL",
+          "date": "2021-12-20"
+        },
+        "789-8": {
+          "label": "Erythrocytes [#/volume] in Blood by Automated count",
+          "value": 4.8005,
+          "unit": "10*6/uL",
+          "date": "2021-12-20"
+        },
+        "718-7": {
+          "label": "Hemoglobin [Mass/volume] in Blood",
+          "value": 14.538,
+          "unit": "g/dL",
+          "date": "2021-12-20"
+        },
+        "4544-3": {
+          "label": "Hematocrit [Volume Fraction] of Blood by Automated count",
+          "value": 40.55,
+          "unit": "%",
+          "date": "2021-12-20"
+        },
+        "787-2": {
+          "label": "MCV [Entitic volume] by Automated count",
+          "value": 83.447,
+          "unit": "fL",
+          "date": "2021-12-20"
+        },
+        "785-6": {
+          "label": "MCH [Entitic mass] by Automated count",
+          "value": 28.281,
+          "unit": "pg",
+          "date": "2021-12-20"
+        },
+        "786-4": {
+          "label": "MCHC [Mass/volume] by Automated count",
+          "value": 35.577,
+          "unit": "g/dL",
+          "date": "2021-12-20"
+        },
+        "21000-5": {
+          "label": "Erythrocyte distribution width [Entitic volume] by Automated count",
+          "value": 41.731,
+          "unit": "fL",
+          "date": "2021-12-20"
+        },
+        "777-3": {
+          "label": "Platelets [#/volume] in Blood by Automated count",
+          "value": 448.28,
+          "unit": "10*3/uL",
+          "date": "2021-12-20"
+        },
+        "32207-3": {
+          "label": "Platelet distribution width [Entitic volume] in Blood by Automated count",
+          "value": 519.78,
+          "unit": "fL",
+          "date": "2021-12-20"
+        },
+        "32623-1": {
+          "label": "Platelet mean volume [Entitic volume] in Blood by Automated count",
+          "value": 10.225,
+          "unit": "fL",
+          "date": "2021-12-20"
+        },
+        "8331-1": {
+          "label": "Oral temperature",
+          "value": 37.803,
+          "unit": "Cel",
+          "date": "2025-04-25"
+        }
+      }
+    },
+    {
+      "fhirId": "1350",
+      "given": "Miquel905",
+      "family": "Wolff180",
+      "birthDate": "1971-10-04",
+      "gender": "male",
+      "deceased": false,
+      "identifiers": [
+        {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "85de7228-5abd-4704-8231-94f75eafea76"
+        },
+        {
+          "system": "http://hospital.smarthealthit.org",
+          "value": "85de7228-5abd-4704-8231-94f75eafea76"
+        },
+        {
+          "system": "http://hl7.org/fhir/sid/us-ssn",
+          "value": "999-87-7675"
+        },
+        {
+          "system": "urn:oid:2.16.840.1.113883.4.3.25",
+          "value": "S99961100"
+        },
+        {
+          "system": "http://standardhealthrecord.org/fhir/StructureDefinition/passportNumber",
+          "value": "X64648128X"
+        }
+      ],
+      "conditions": [
+        {
+          "text": "Hypertension",
+          "snomed": "59621000",
+          "status": "active",
+          "onset": "1989-11-27"
+        },
+        {
+          "text": "Body mass index 30+ - obesity (finding)",
+          "snomed": "162864005",
+          "status": "active",
+          "onset": "1991-12-09"
+        },
+        {
+          "text": "Acute bronchitis (disorder)",
+          "snomed": "10509002",
+          "status": "resolved",
+          "onset": "2016-09-18"
+        },
+        {
+          "text": "Acute bronchitis (disorder)",
+          "snomed": "10509002",
+          "status": "resolved",
+          "onset": "2019-04-22"
+        },
+        {
+          "text": "Acute bronchitis (disorder)",
+          "snomed": "10509002",
+          "status": "resolved",
+          "onset": "2020-11-05"
+        },
+        {
+          "text": "Acute viral pharyngitis (disorder)",
+          "snomed": "195662009",
+          "status": "resolved",
+          "onset": "2023-03-07"
+        },
+        {
+          "text": "Acute viral pharyngitis (disorder)",
+          "snomed": "195662009",
+          "status": "resolved",
+          "onset": "2023-05-17"
+        },
+        {
+          "text": "Acute viral pharyngitis (disorder)",
+          "snomed": "195662009",
+          "status": "resolved",
+          "onset": "2024-07-24"
+        },
+        {
+          "text": "Localized, primary osteoarthritis of the hand",
+          "snomed": "201834006",
+          "status": "active",
+          "onset": "2024-09-20"
+        }
+      ],
+      "medications": [
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "1989-11-27"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "1990-12-03"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "1991-12-09"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "1992-12-14"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "1993-12-20"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "1994-12-26"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "1996-01-01"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "1997-01-06"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "1998-01-12"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "1999-01-18"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2000-01-24"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2001-01-29"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2002-02-04"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2003-02-10"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2004-02-16"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2005-02-21"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2006-02-27"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2007-03-05"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2008-03-10"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2009-03-16"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2009-09-28"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2010-03-22"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2011-03-28"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2012-04-02"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2013-04-08"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2014-04-14"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2015-04-20"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2016-04-25"
+        },
+        {
+          "text": "Acetaminophen 325 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2016-09-18"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2016-10-03"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2017-05-01"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2018-05-07"
+        },
+        {
+          "text": "Acetaminophen 325 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2019-04-22"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2019-05-13"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2020-05-18"
+        },
+        {
+          "text": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "status": "stopped",
+          "date": "2020-11-05"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2021-05-24"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2022-05-30"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2023-06-05"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "stopped",
+          "date": "2024-06-10"
+        },
+        {
+          "text": "Naproxen sodium 220 MG Oral Tablet",
+          "status": "active",
+          "date": "2024-09-20"
+        },
+        {
+          "text": "Hydrochlorothiazide 12.5 MG",
+          "status": "active",
+          "date": "2025-06-16"
+        }
+      ],
+      "allergies": [],
+      "latest": {
+        "8302-2": {
+          "label": "Body Height",
+          "value": 176.3,
+          "unit": "cm",
+          "date": "2025-06-16"
+        },
+        "72514-3": {
+          "label": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "value": 1,
+          "unit": "{score}",
+          "date": "2025-06-16"
+        },
+        "29463-7": {
+          "label": "Body Weight",
+          "value": 89.6,
+          "unit": "kg",
+          "date": "2025-06-16"
+        },
+        "39156-5": {
+          "label": "Body Mass Index",
+          "value": 28.83,
+          "unit": "kg/m2",
+          "date": "2025-06-16"
+        },
+        "2093-3": {
+          "label": "Total Cholesterol",
+          "value": 174.02,
+          "unit": "mg/dL",
+          "date": "2023-06-05"
+        },
+        "2571-8": {
+          "label": "Triglycerides",
+          "value": 110.23,
+          "unit": "mg/dL",
+          "date": "2023-06-05"
+        },
+        "18262-6": {
+          "label": "Low Density Lipoprotein Cholesterol",
+          "value": 92.97,
+          "unit": "mg/dL",
+          "date": "2023-06-05"
+        },
+        "2085-9": {
+          "label": "High Density Lipoprotein Cholesterol",
+          "value": 59,
+          "unit": "mg/dL",
+          "date": "2023-06-05"
+        },
+        "6690-2": {
+          "label": "Leukocytes [#/volume] in Blood by Automated count",
+          "value": 4.4963,
+          "unit": "10*3/uL",
+          "date": "2023-06-05"
+        },
+        "789-8": {
+          "label": "Erythrocytes [#/volume] in Blood by Automated count",
+          "value": 5.1552,
+          "unit": "10*6/uL",
+          "date": "2023-06-05"
+        },
+        "718-7": {
+          "label": "Hemoglobin [Mass/volume] in Blood",
+          "value": 13.238,
+          "unit": "g/dL",
+          "date": "2023-06-05"
+        },
+        "4544-3": {
+          "label": "Hematocrit [Volume Fraction] of Blood by Automated count",
+          "value": 35.525,
+          "unit": "%",
+          "date": "2023-06-05"
+        },
+        "787-2": {
+          "label": "MCV [Entitic volume] by Automated count",
+          "value": 90.936,
+          "unit": "fL",
+          "date": "2023-06-05"
+        },
+        "785-6": {
+          "label": "MCH [Entitic mass] by Automated count",
+          "value": 32.466,
+          "unit": "pg",
+          "date": "2023-06-05"
+        },
+        "786-4": {
+          "label": "MCHC [Mass/volume] by Automated count",
+          "value": 35.756,
+          "unit": "g/dL",
+          "date": "2023-06-05"
+        },
+        "21000-5": {
+          "label": "Erythrocyte distribution width [Entitic volume] by Automated count",
+          "value": 45.085,
+          "unit": "fL",
+          "date": "2023-06-05"
+        },
+        "777-3": {
+          "label": "Platelets [#/volume] in Blood by Automated count",
+          "value": 203.13,
+          "unit": "10*3/uL",
+          "date": "2023-06-05"
+        },
+        "32207-3": {
+          "label": "Platelet distribution width [Entitic volume] in Blood by Automated count",
+          "value": 304.82,
+          "unit": "fL",
+          "date": "2023-06-05"
+        },
+        "32623-1": {
+          "label": "Platelet mean volume [Entitic volume] in Blood by Automated count",
+          "value": 10.911,
+          "unit": "fL",
+          "date": "2023-06-05"
+        },
+        "8331-1": {
+          "label": "Oral temperature",
+          "value": 37.763,
+          "unit": "Cel",
+          "date": "2024-07-24"
+        }
+      }
+    },
+    {
+      "fhirId": "1805",
+      "given": "Sherry479",
+      "family": "Spinka232",
+      "birthDate": "1983-09-17",
+      "gender": "female",
+      "deceased": false,
+      "identifiers": [
+        {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "19bebb55-a4de-4bd1-b18f-0a88fa0d051a"
+        },
+        {
+          "system": "http://hospital.smarthealthit.org",
+          "value": "19bebb55-a4de-4bd1-b18f-0a88fa0d051a"
+        },
+        {
+          "system": "http://hl7.org/fhir/sid/us-ssn",
+          "value": "999-73-1970"
+        },
+        {
+          "system": "urn:oid:2.16.840.1.113883.4.3.25",
+          "value": "S99977538"
+        },
+        {
+          "system": "http://standardhealthrecord.org/fhir/StructureDefinition/passportNumber",
+          "value": "X79574183X"
+        }
+      ],
+      "conditions": [
+        {
+          "text": "Chronic paralysis due to lesion of spinal cord",
+          "snomed": "698754002",
+          "status": "active",
+          "onset": "2009-08-01"
+        },
+        {
+          "text": "Normal pregnancy",
+          "snomed": "72892002",
+          "status": "resolved",
+          "onset": "2015-11-28"
+        },
+        {
+          "text": "Acute bronchitis (disorder)",
+          "snomed": "10509002",
+          "status": "resolved",
+          "onset": "2015-12-30"
+        },
+        {
+          "text": "Acute bronchitis (disorder)",
+          "snomed": "10509002",
+          "status": "resolved",
+          "onset": "2018-08-24"
+        },
+        {
+          "text": "Normal pregnancy",
+          "snomed": "72892002",
+          "status": "resolved",
+          "onset": "2018-11-17"
+        },
+        {
+          "text": "Miscarriage in first trimester",
+          "snomed": "19169002",
+          "status": "active",
+          "onset": "2018-11-17"
+        },
+        {
+          "text": "Blighted ovum",
+          "snomed": "35999006",
+          "status": "resolved",
+          "onset": "2018-11-17"
+        },
+        {
+          "text": "Normal pregnancy",
+          "snomed": "72892002",
+          "status": "resolved",
+          "onset": "2019-08-17"
+        },
+        {
+          "text": "Acute viral pharyngitis (disorder)",
+          "snomed": "195662009",
+          "status": "resolved",
+          "onset": "2019-08-27"
+        },
+        {
+          "text": "Normal pregnancy",
+          "snomed": "72892002",
+          "status": "resolved",
+          "onset": "2022-03-19"
+        },
+        {
+          "text": "Anemia (disorder)",
+          "snomed": "271737000",
+          "status": "resolved",
+          "onset": "2022-03-19"
+        },
+        {
+          "text": "Laceration of hand",
+          "snomed": "284549007",
+          "status": "resolved",
+          "onset": "2023-03-13"
+        },
+        {
+          "text": "Viral sinusitis (disorder)",
+          "snomed": "444814009",
+          "status": "resolved",
+          "onset": "2024-03-22"
+        },
+        {
+          "text": "Sprain of ankle",
+          "snomed": "44465007",
+          "status": "resolved",
+          "onset": "2025-03-16"
+        }
+      ],
+      "medications": [
+        {
+          "text": "Acetaminophen 325 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2015-12-30"
+        },
+        {
+          "text": "Natazia 28 Day Pack",
+          "status": "stopped",
+          "date": "2017-08-01"
+        },
+        {
+          "text": "Acetaminophen 325 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2018-08-24"
+        },
+        {
+          "text": "Naproxen sodium 220 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2023-03-13"
+        },
+        {
+          "text": "Jolivette 28 Day Pack",
+          "status": "stopped",
+          "date": "2023-12-12"
+        },
+        {
+          "text": "Naproxen sodium 220 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2025-03-16"
+        }
+      ],
+      "allergies": [],
+      "latest": {
+        "8302-2": {
+          "label": "Body Height",
+          "value": 170.6,
+          "unit": "cm",
+          "date": "2025-09-27"
+        },
+        "72514-3": {
+          "label": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "value": 2,
+          "unit": "{score}",
+          "date": "2025-09-27"
+        },
+        "29463-7": {
+          "label": "Body Weight",
+          "value": 85.9,
+          "unit": "kg",
+          "date": "2025-09-27"
+        },
+        "39156-5": {
+          "label": "Body Mass Index",
+          "value": 29.5,
+          "unit": "kg/m2",
+          "date": "2025-09-27"
+        },
+        "2093-3": {
+          "label": "Total Cholesterol",
+          "value": 185.88,
+          "unit": "mg/dL",
+          "date": "2025-09-27"
+        },
+        "2571-8": {
+          "label": "Triglycerides",
+          "value": 120.29,
+          "unit": "mg/dL",
+          "date": "2025-09-27"
+        },
+        "18262-6": {
+          "label": "Low Density Lipoprotein Cholesterol",
+          "value": 100.16,
+          "unit": "mg/dL",
+          "date": "2025-09-27"
+        },
+        "2085-9": {
+          "label": "High Density Lipoprotein Cholesterol",
+          "value": 61.66,
+          "unit": "mg/dL",
+          "date": "2025-09-27"
+        },
+        "6690-2": {
+          "label": "Leukocytes [#/volume] in Blood by Automated count",
+          "value": 9.56,
+          "unit": "10*3/uL",
+          "date": "2023-09-23"
+        },
+        "789-8": {
+          "label": "Erythrocytes [#/volume] in Blood by Automated count",
+          "value": 4.0938,
+          "unit": "10*6/uL",
+          "date": "2023-09-23"
+        },
+        "718-7": {
+          "label": "Hemoglobin [Mass/volume] in Blood",
+          "value": 15.27,
+          "unit": "g/dL",
+          "date": "2023-09-23"
+        },
+        "4544-3": {
+          "label": "Hematocrit [Volume Fraction] of Blood by Automated count",
+          "value": 45.073,
+          "unit": "%",
+          "date": "2023-09-23"
+        },
+        "787-2": {
+          "label": "MCV [Entitic volume] by Automated count",
+          "value": 84.83,
+          "unit": "fL",
+          "date": "2023-09-23"
+        },
+        "785-6": {
+          "label": "MCH [Entitic mass] by Automated count",
+          "value": 27.63,
+          "unit": "pg",
+          "date": "2023-09-23"
+        },
+        "786-4": {
+          "label": "MCHC [Mass/volume] by Automated count",
+          "value": 34.001,
+          "unit": "g/dL",
+          "date": "2023-09-23"
+        },
+        "21000-5": {
+          "label": "Erythrocyte distribution width [Entitic volume] by Automated count",
+          "value": 45.039,
+          "unit": "fL",
+          "date": "2023-09-23"
+        },
+        "777-3": {
+          "label": "Platelets [#/volume] in Blood by Automated count",
+          "value": 206.42,
+          "unit": "10*3/uL",
+          "date": "2023-09-23"
+        },
+        "32207-3": {
+          "label": "Platelet distribution width [Entitic volume] in Blood by Automated count",
+          "value": 376.41,
+          "unit": "fL",
+          "date": "2023-09-23"
+        },
+        "32623-1": {
+          "label": "Platelet mean volume [Entitic volume] in Blood by Automated count",
+          "value": 10.579,
+          "unit": "fL",
+          "date": "2023-09-23"
+        },
+        "8331-1": {
+          "label": "Oral temperature",
+          "value": 37.998,
+          "unit": "Cel",
+          "date": "2019-08-27"
+        },
+        "20570-8": {
+          "label": "Hematocrit [Volume Fraction] of Blood",
+          "value": 33.377,
+          "unit": "%",
+          "date": "2022-03-19"
+        }
+      }
+    },
+    {
+      "fhirId": "2329",
+      "given": "Tish",
+      "family": "Lemke",
+      "birthDate": "1978-06-25",
+      "gender": "female",
+      "deceased": false,
+      "identifiers": [
+        {
+          "system": "https://github.com/synthetichealth/synthea",
+          "value": "e362ce59-b198-4296-b01e-109fa6b44fe5"
+        },
+        {
+          "system": "http://hospital.smarthealthit.org",
+          "value": "e362ce59-b198-4296-b01e-109fa6b44fe5"
+        },
+        {
+          "system": "http://hl7.org/fhir/sid/us-ssn",
+          "value": "999-13-4626"
+        },
+        {
+          "system": "urn:oid:2.16.840.1.113883.4.3.25",
+          "value": "S99931949"
+        },
+        {
+          "system": "http://standardhealthrecord.org/fhir/StructureDefinition/passportNumber",
+          "value": "X76326389X"
+        }
+      ],
+      "conditions": [
+        {
+          "text": "Chronic sinusitis (disorder)",
+          "snomed": "40055000",
+          "status": "active",
+          "onset": "2000-07-02"
+        },
+        {
+          "text": "Acute bronchitis (disorder)",
+          "snomed": "10509002",
+          "status": "resolved",
+          "onset": "2010-11-28"
+        },
+        {
+          "text": "Normal pregnancy",
+          "snomed": "72892002",
+          "status": "resolved",
+          "onset": "2013-04-14"
+        },
+        {
+          "text": "Normal pregnancy",
+          "snomed": "72892002",
+          "status": "resolved",
+          "onset": "2013-08-04"
+        },
+        {
+          "text": "Acute bronchitis (disorder)",
+          "snomed": "10509002",
+          "status": "resolved",
+          "onset": "2014-10-31"
+        },
+        {
+          "text": "Viral sinusitis (disorder)",
+          "snomed": "444814009",
+          "status": "resolved",
+          "onset": "2016-11-07"
+        },
+        {
+          "text": "Streptococcal sore throat (disorder)",
+          "snomed": "43878008",
+          "status": "resolved",
+          "onset": "2016-12-18"
+        },
+        {
+          "text": "Laceration of thigh",
+          "snomed": "283385000",
+          "status": "resolved",
+          "onset": "2018-02-19"
+        },
+        {
+          "text": "Cough (finding)",
+          "snomed": "49727002",
+          "status": "resolved",
+          "onset": "2020-03-04"
+        },
+        {
+          "text": "Sputum finding (finding)",
+          "snomed": "248595008",
+          "status": "resolved",
+          "onset": "2020-03-04"
+        },
+        {
+          "text": "Dyspnea (finding)",
+          "snomed": "267036007",
+          "status": "resolved",
+          "onset": "2020-03-04"
+        },
+        {
+          "text": "Wheezing (finding)",
+          "snomed": "56018004",
+          "status": "resolved",
+          "onset": "2020-03-04"
+        },
+        {
+          "text": "Fever (finding)",
+          "snomed": "386661006",
+          "status": "resolved",
+          "onset": "2020-03-04"
+        },
+        {
+          "text": "Loss of taste (finding)",
+          "snomed": "36955009",
+          "status": "resolved",
+          "onset": "2020-03-04"
+        },
+        {
+          "text": "Suspected COVID-19",
+          "snomed": "840544004",
+          "status": "resolved",
+          "onset": "2020-03-04"
+        },
+        {
+          "text": "COVID-19",
+          "snomed": "840539006",
+          "status": "resolved",
+          "onset": "2020-03-04"
+        },
+        {
+          "text": "Pneumonia (disorder)",
+          "snomed": "233604007",
+          "status": "resolved",
+          "onset": "2020-03-04"
+        },
+        {
+          "text": "Hypoxemia (disorder)",
+          "snomed": "389087006",
+          "status": "active",
+          "onset": "2020-03-04"
+        },
+        {
+          "text": "Respiratory distress (finding)",
+          "snomed": "271825005",
+          "status": "resolved",
+          "onset": "2020-03-04"
+        },
+        {
+          "text": "Acute respiratory failure (disorder)",
+          "snomed": "65710008",
+          "status": "resolved",
+          "onset": "2020-03-04"
+        },
+        {
+          "text": "Acute pulmonary embolism (disorder)",
+          "snomed": "706870000",
+          "status": "resolved",
+          "onset": "2020-03-12"
+        },
+        {
+          "text": "Escherichia coli urinary tract infection",
+          "snomed": "301011002",
+          "status": "resolved",
+          "onset": "2020-07-31"
+        }
+      ],
+      "medications": [
+        {
+          "text": "Acetaminophen 21.7 MG/ML / Dextromethorphan Hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution",
+          "status": "stopped",
+          "date": "2010-11-28"
+        },
+        {
+          "text": "Acetaminophen 325 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2014-10-31"
+        },
+        {
+          "text": "Penicillin V Potassium 500 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2016-12-18"
+        },
+        {
+          "text": "Ibuprofen 200 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2018-02-19"
+        },
+        {
+          "text": "0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe",
+          "status": "active",
+          "date": "2020-03-04"
+        },
+        {
+          "text": "NDA020503 200 ACTUAT Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler",
+          "status": "active",
+          "date": "2020-03-04"
+        },
+        {
+          "text": "Acetaminophen 500 MG Oral Tablet",
+          "status": "active",
+          "date": "2020-03-04"
+        },
+        {
+          "text": "1 ML Enoxaparin sodium 150 MG/ML Prefilled Syringe",
+          "status": "active",
+          "date": "2020-03-12"
+        },
+        {
+          "text": "Nitrofurantoin 5 MG/ML Oral Suspension",
+          "status": "stopped",
+          "date": "2020-07-31"
+        },
+        {
+          "text": "Phenazopyridine hydrochloride 100 MG Oral Tablet",
+          "status": "stopped",
+          "date": "2020-07-31"
+        }
+      ],
+      "allergies": [],
+      "latest": {
+        "8302-2": {
+          "label": "Body Height",
+          "value": 164.3,
+          "unit": "cm",
+          "date": "2020-07-05"
+        },
+        "72514-3": {
+          "label": "Pain severity - 0-10 verbal numeric rating [Score] - Reported",
+          "value": 2,
+          "unit": "{score}",
+          "date": "2020-07-05"
+        },
+        "29463-7": {
+          "label": "Body Weight",
+          "value": 55.8,
+          "unit": "kg",
+          "date": "2020-07-05"
+        },
+        "39156-5": {
+          "label": "Body Mass Index",
+          "value": 20.67,
+          "unit": "kg/m2",
+          "date": "2020-07-05"
+        },
+        "8867-4": {
+          "label": "Heart rate",
+          "value": 63,
+          "unit": "/min",
+          "date": "2020-07-05"
+        },
+        "9279-1": {
+          "label": "Respiratory rate",
+          "value": 15,
+          "unit": "/min",
+          "date": "2020-07-05"
+        },
+        "2093-3": {
+          "label": "Total Cholesterol",
+          "value": 165.62,
+          "unit": "mg/dL",
+          "date": "2020-07-05"
+        },
+        "2571-8": {
+          "label": "Triglycerides",
+          "value": 140.35,
+          "unit": "mg/dL",
+          "date": "2020-07-05"
+        },
+        "18262-6": {
+          "label": "Low Density Lipoprotein Cholesterol",
+          "value": 71.55,
+          "unit": "mg/dL",
+          "date": "2020-07-05"
+        },
+        "2085-9": {
+          "label": "High Density Lipoprotein Cholesterol",
+          "value": 66,
+          "unit": "mg/dL",
+          "date": "2020-07-05"
+        },
+        "6690-2": {
+          "label": "Leukocytes [#/volume] in Blood by Automated count",
+          "value": 3.2248,
+          "unit": "10*3/uL",
+          "date": "2020-03-13"
+        },
+        "789-8": {
+          "label": "Erythrocytes [#/volume] in Blood by Automated count",
+          "value": 5.3673,
+          "unit": "10*6/uL",
+          "date": "2020-03-13"
+        },
+        "718-7": {
+          "label": "Hemoglobin [Mass/volume] in Blood",
+          "value": 11.732,
+          "unit": "g/dL",
+          "date": "2020-03-13"
+        },
+        "4544-3": {
+          "label": "Hematocrit [Volume Fraction] of Blood by Automated count",
+          "value": 44.16,
+          "unit": "%",
+          "date": "2020-03-13"
+        },
+        "787-2": {
+          "label": "MCV [Entitic volume] by Automated count",
+          "value": 84.993,
+          "unit": "fL",
+          "date": "2020-03-13"
+        },
+        "785-6": {
+          "label": "MCH [Entitic mass] by Automated count",
+          "value": 30.42,
+          "unit": "pg",
+          "date": "2020-03-13"
+        },
+        "786-4": {
+          "label": "MCHC [Mass/volume] by Automated count",
+          "value": 32.317,
+          "unit": "g/dL",
+          "date": "2020-03-13"
+        },
+        "21000-5": {
+          "label": "Erythrocyte distribution width [Entitic volume] by Automated count",
+          "value": 39.881,
+          "unit": "fL",
+          "date": "2018-07-01"
+        },
+        "777-3": {
+          "label": "Platelets [#/volume] in Blood by Automated count",
+          "value": 109.89,
+          "unit": "10*3/uL",
+          "date": "2020-03-13"
+        },
+        "32207-3": {
+          "label": "Platelet distribution width [Entitic volume] in Blood by Automated count",
+          "value": 288.64,
+          "unit": "fL",
+          "date": "2018-07-01"
+        },
+        "32623-1": {
+          "label": "Platelet mean volume [Entitic volume] in Blood by Automated count",
+          "value": 10.595,
+          "unit": "fL",
+          "date": "2018-07-01"
+        },
+        "8310-5": {
+          "label": "Body temperature",
+          "value": 36.168,
+          "unit": "Cel",
+          "date": "2020-03-16"
+        },
+        "2708-6": {
+          "label": "Oxygen saturation in Arterial blood",
+          "value": 82.81,
+          "unit": "%",
+          "date": "2020-03-13"
+        },
+        "788-0": {
+          "label": "Erythrocyte distribution width [Ratio] by Automated count",
+          "value": 15.075,
+          "unit": "%",
+          "date": "2020-03-13"
+        },
+        "770-8": {
+          "label": "Neutrophils/100 leukocytes in Blood by Automated count",
+          "value": 21.411,
+          "unit": "%",
+          "date": "2020-03-13"
+        },
+        "736-9": {
+          "label": "Lymphocytes/100 leukocytes in Blood by Automated count",
+          "value": 13.131,
+          "unit": "%",
+          "date": "2020-03-13"
+        },
+        "5905-5": {
+          "label": "Monocytes/100 leukocytes in Blood by Automated count",
+          "value": 6.7675,
+          "unit": "%",
+          "date": "2020-03-13"
+        },
+        "713-8": {
+          "label": "Eosinophils/100 leukocytes in Blood by Automated count",
+          "value": 4.4515,
+          "unit": "%",
+          "date": "2020-03-13"
+        },
+        "706-2": {
+          "label": "Basophils/100 leukocytes in Blood by Automated count",
+          "value": 3.6249,
+          "unit": "%",
+          "date": "2020-03-13"
+        },
+        "751-8": {
+          "label": "Neutrophils [#/volume] in Blood by Automated count",
+          "value": 2.2254,
+          "unit": "10*3/uL",
+          "date": "2020-03-13"
+        },
+        "731-0": {
+          "label": "Lymphocytes [#/volume] in Blood by Automated count",
+          "value": 1.0184,
+          "unit": "10*3/uL",
+          "date": "2020-03-13"
+        },
+        "742-7": {
+          "label": "Monocytes [#/volume] in Blood by Automated count",
+          "value": 0.56363,
+          "unit": "10*3/uL",
+          "date": "2020-03-13"
+        },
+        "711-2": {
+          "label": "Eosinophils [#/volume] in Blood by Automated count",
+          "value": 0.36412,
+          "unit": "10*3/uL",
+          "date": "2020-03-13"
+        },
+        "704-7": {
+          "label": "Basophils [#/volume] in Blood by Automated count",
+          "value": 0.38257,
+          "unit": "10*3/uL",
+          "date": "2020-03-13"
+        },
+        "2345-7": {
+          "label": "Glucose [Mass/volume] in Serum or Plasma",
+          "value": 72.9,
+          "unit": "mg/dL",
+          "date": "2020-03-13"
+        },
+        "3094-0": {
+          "label": "Urea nitrogen [Mass/volume] in Serum or Plasma",
+          "value": 17.57,
+          "unit": "mg/dL",
+          "date": "2020-03-13"
+        },
+        "2160-0": {
+          "label": "Creatinine [Mass/volume] in Serum or Plasma",
+          "value": 2.5072,
+          "unit": "mg/dL",
+          "date": "2020-03-13"
+        },
+        "17861-6": {
+          "label": "Calcium [Mass/volume] in Serum or Plasma",
+          "value": 8.8,
+          "unit": "mg/dL",
+          "date": "2020-03-13"
+        },
+        "2951-2": {
+          "label": "Sodium [Moles/volume] in Serum or Plasma",
+          "value": 138.6,
+          "unit": "mmol/L",
+          "date": "2020-03-13"
+        },
+        "2823-3": {
+          "label": "Potassium [Moles/volume] in Serum or Plasma",
+          "value": 3.98,
+          "unit": "mmol/L",
+          "date": "2020-03-13"
+        },
+        "2075-0": {
+          "label": "Chloride [Moles/volume] in Serum or Plasma",
+          "value": 104.02,
+          "unit": "mmol/L",
+          "date": "2020-03-13"
+        },
+        "2028-9": {
+          "label": "Carbon dioxide, total [Moles/volume] in Serum or Plasma",
+          "value": 20.25,
+          "unit": "mmol/L",
+          "date": "2020-03-13"
+        },
+        "33914-3": {
+          "label": "Glomerular filtration rate/1.73 sq M.predicted",
+          "value": 12.028,
+          "unit": "mL/min",
+          "date": "2020-03-13"
+        },
+        "2885-2": {
+          "label": "Protein [Mass/volume] in Serum or Plasma",
+          "value": 7.7357,
+          "unit": "g/dL",
+          "date": "2020-03-13"
+        },
+        "1751-7": {
+          "label": "Albumin [Mass/volume] in Serum or Plasma",
+          "value": 4.7127,
+          "unit": "g/dL",
+          "date": "2020-03-13"
+        },
+        "1975-2": {
+          "label": "Bilirubin.total [Mass/volume] in Serum or Plasma",
+          "value": 12.964,
+          "unit": "mg/dL",
+          "date": "2020-03-13"
+        },
+        "6768-6": {
+          "label": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma",
+          "value": 61.393,
+          "unit": "U/L",
+          "date": "2020-03-13"
+        },
+        "1742-6": {
+          "label": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+          "value": 16.934,
+          "unit": "U/L",
+          "date": "2020-03-13"
+        },
+        "1920-8": {
+          "label": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma",
+          "value": 2.563,
+          "unit": "U/L",
+          "date": "2020-03-13"
+        },
+        "2744-1": {
+          "label": "pH of Arterial blood",
+          "value": 7.2588,
+          "unit": "[pH]",
+          "date": "2020-03-13"
+        },
+        "2019-8": {
+          "label": "Carbon dioxide [Partial pressure] in Arterial blood",
+          "value": 40.97,
+          "unit": "mm[Hg]",
+          "date": "2020-03-13"
+        },
+        "2703-7": {
+          "label": "Oxygen [Partial pressure] in Arterial blood",
+          "value": 41.022,
+          "unit": "mm[Hg]",
+          "date": "2020-03-13"
+        },
+        "1960-4": {
+          "label": "Bicarbonate [Moles/volume] in Arterial blood",
+          "value": 26.818,
+          "unit": "mmol/L",
+          "date": "2020-03-13"
+        },
+        "19994-3": {
+          "label": "Oxygen/Inspired gas setting [Volume Fraction] Ventilator",
+          "value": 79.257,
+          "unit": "%",
+          "date": "2020-03-13"
+        },
+        "48065-7": {
+          "label": "Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma",
+          "value": 0.5858,
+          "unit": "ug/mL",
+          "date": "2020-03-12"
+        },
+        "2276-4": {
+          "label": "Ferritin [Mass/volume] in Serum or Plasma",
+          "value": 541.85,
+          "unit": "ug/L",
+          "date": "2020-03-12"
+        },
+        "89579-7": {
+          "label": "Troponin I.cardiac [Mass/volume] in Serum or Plasma by High sensitivity method",
+          "value": 2.7697,
+          "unit": "pg/mL",
+          "date": "2020-03-12"
+        },
+        "14804-9": {
+          "label": "Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction",
+          "value": 225.19,
+          "unit": "U/L",
+          "date": "2020-03-12"
+        },
+        "2157-6": {
+          "label": "Creatine kinase [Enzymatic activity/volume] in Serum or Plasma",
+          "value": 35.008,
+          "unit": "U/L",
+          "date": "2020-03-12"
+        },
+        "1988-5": {
+          "label": "C reactive protein [Mass/volume] in Serum or Plasma",
+          "value": 9.0071,
+          "unit": "mg/L",
+          "date": "2020-03-12"
+        },
+        "5902-2": {
+          "label": "Prothrombin time (PT)",
+          "value": 10.206,
+          "unit": "s",
+          "date": "2020-03-12"
+        },
+        "6301-6": {
+          "label": "INR in Platelet poor plasma by Coagulation assay",
+          "value": 1.0885,
+          "unit": "{INR}",
+          "date": "2020-03-12"
+        },
+        "33959-8": {
+          "label": "Procalcitonin [Mass/volume] in Serum or Plasma",
+          "value": 0.043226,
+          "unit": "ng/mL",
+          "date": "2020-03-12"
+        }
+      }
+    }
+  ]
+}

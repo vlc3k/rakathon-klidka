@@ -1,0 +1,2200 @@
+{
+  "_info": "Syntetická demo data, vygenerováno scripts/demo-data.mjs. Jména a RČ jsou vymyšlená, dokumenty přečetla AI.",
+  "cases": [
+    {
+      "case_id": "case-01",
+      "patient_name": "Leoš Václavík",
+      "external_id": "VFN-2026-0001",
+      "birth_number": "400716/267",
+      "first_name": "Leoš",
+      "last_name": "Václavík",
+      "birth_date": "1940-07-16",
+      "sex": "male",
+      "age": 86,
+      "procedure": "TEP kyčelního kloubu vpravo",
+      "oncological": false,
+      "case_date": "2026-11-12",
+      "bleeding_risk_high": true,
+      "aa_section": "chirurgie",
+      "note": "anémie v nemocnici, nová laboratoř od praktika s nízkým Hb",
+      "bankid_login": "LeosV",
+      "hospital": {
+        "fhirId": "33"
+      },
+      "documents": [
+        "d-case-01-a.jpg",
+        "d-case-01-b.jpg",
+        "d-case-01-c.jpg"
+      ]
+    },
+    {
+      "case_id": "case-02",
+      "patient_name": "Aurora Hoeger",
+      "external_id": "VFN-2026-0002",
+      "birth_number": "235530/0310",
+      "first_name": "Aurora",
+      "last_name": "Hoeger",
+      "birth_date": "2023-05-30",
+      "sex": "female",
+      "age": 3,
+      "procedure": "Sanace chrupu v celkové anestezii",
+      "oncological": false,
+      "case_date": "2026-10-30",
+      "bleeding_risk_high": false,
+      "aa_section": "stomatochirurgie",
+      "note": "tříleté dítě, zdravé",
+      "bankid_login": null,
+      "hospital": {
+        "fhirId": "32"
+      },
+      "documents": [
+        "d-case-02-a.jpg",
+        "d-case-02-b.jpg"
+      ]
+    },
+    {
+      "case_id": "case-03",
+      "patient_name": "Jiřina Šáchová",
+      "external_id": "VFN-2026-0003",
+      "birth_number": "735405/9284",
+      "first_name": "Jiřina",
+      "last_name": "Šáchová",
+      "birth_date": "1973-04-05",
+      "sex": "female",
+      "age": 53,
+      "procedure": "Hysterektomie laparoskopicky",
+      "oncological": false,
+      "case_date": "2026-11-18",
+      "bleeding_risk_high": true,
+      "aa_section": "gynekologie",
+      "note": "anémie a hypertenze v nemocnici, nová laboratoř s nízkým Hb a feritinem",
+      "bankid_login": "SachovaJ",
+      "hospital": {
+        "fhirId": "736"
+      },
+      "documents": [
+        "d-case-03-a.jpg",
+        "d-case-03-b.jpg",
+        "d-case-03-m.jpg"
+      ]
+    },
+    {
+      "case_id": "case-04",
+      "patient_name": "Jan Novák",
+      "external_id": "VFN-2026-0004",
+      "birth_number": "700801/8556",
+      "first_name": "Jan",
+      "last_name": "Novák",
+      "birth_date": "1970-08-01",
+      "sex": "male",
+      "age": 56,
+      "procedure": "Artroplastika kořenového kloubu palce vpravo",
+      "oncological": false,
+      "case_date": "2026-11-05",
+      "bleeding_risk_high": false,
+      "aa_section": "chirurgie",
+      "note": "hypertenze, obezita, artróza ruky; užívá naproxen (NSAID)",
+      "bankid_login": "JanN",
+      "hospital": {
+        "fhirId": "1350"
+      },
+      "documents": [
+        "d-case-04-a.jpg",
+        "d-case-04-b.jpg",
+        "d-case-04-c.jpg",
+        "d-case-04-m.jpg"
+      ]
+    },
+    {
+      "case_id": "case-05",
+      "patient_name": "Lenka Kohlová",
+      "external_id": "VFN-2026-0005",
+      "birth_number": "835807/5429",
+      "first_name": "Lenka",
+      "last_name": "Kohlová",
+      "birth_date": "1983-08-07",
+      "sex": "female",
+      "age": 43,
+      "procedure": "Plastika dekubitu v sakrální oblasti",
+      "oncological": false,
+      "case_date": "2026-10-29",
+      "bleeding_risk_high": false,
+      "aa_section": "chirurgie",
+      "note": "chronická paraplegie; laboratoř zatím chybí (v nemocnici jen z 2023)",
+      "bankid_login": "Lenka",
+      "hospital": {
+        "fhirId": "1805"
+      },
+      "documents": [
+        "d-case-05-a.jpg",
+        "d-case-05-m.jpg"
+      ]
+    },
+    {
+      "case_id": "case-06",
+      "patient_name": "Robert Tusin",
+      "external_id": "VFN-2026-0006",
+      "birth_number": "770801/5524",
+      "first_name": "Robert",
+      "last_name": "Tusin",
+      "birth_date": "1977-08-01",
+      "sex": "male",
+      "age": 49,
+      "procedure": "Endoskopická operace vedlejších dutin nosních (FESS)",
+      "oncological": false,
+      "case_date": "2026-11-20",
+      "bleeding_risk_high": false,
+      "aa_section": "chirurgie",
+      "note": "chronická sinusitida, prodělaná hypoxémie; enoxaparin; stará laboratoř v nemocnici patologická",
+      "bankid_login": "Tusin1a",
+      "hospital": {
+        "fhirId": "2329"
+      },
+      "documents": [
+        "d-case-06-a.jpg",
+        "d-case-06-b.jpg",
+        "d-case-06-c.jpg",
+        "d-case-06-m.jpg"
+      ]
+    },
+    {
+      "case_id": "case-07",
+      "patient_name": "Tomáš Nedbal",
+      "external_id": "VFN-2026-0007",
+      "birth_number": "740621/3661",
+      "first_name": "Tomáš",
+      "last_name": "Nedbal",
+      "birth_date": "1974-06-21",
+      "sex": "male",
+      "age": 52,
+      "procedure": "Laparoskopická cholecystektomie",
+      "oncological": false,
+      "case_date": "2026-11-10",
+      "bleeding_risk_high": false,
+      "aa_section": "chirurgie",
+      "note": "testovací osoba Bank iD bez záznamu v nemocnici (FHIR ho nenajde)",
+      "bankid_login": "Nedbal1",
+      "hospital": null,
+      "documents": [
+        "d-case-07-a.jpg",
+        "d-case-07-b.jpg",
+        "d-case-07-c.jpg"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "_hash": "110d46542737",
+      "_expected": "match",
+      "_printed": {
+        "name": "Leoš Václavík",
+        "rc": "400716/267"
+      },
+      "_truth": {
+        "kind": "preop",
+        "date": "2026-10-06",
+        "dx": [
+          "M16.1 Primární koxartróza vpravo",
+          "D64.9 Anémie",
+          "R73.0 Prediabetes",
+          "E66.9 Obezita (BMI 30+)"
+        ],
+        "meds": [],
+        "allergies": [],
+        "conclusion": "Schopen výkonu. Anémie k došetření a léčbě před výkonem (PBM)."
+      },
+      "_level": 1,
+      "file": "d-case-01-a.jpg",
+      "case_id": "case-01",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "preoperative_exam",
+        "date": "2026-10-06",
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o."
+      },
+      "patient": {
+        "name": "Leoš Václavík",
+        "birth_number": "400716/267",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          234,
+          167,
+          356,
+          185
+        ],
+        "birth_number_box": [
+          632,
+          183,
+          737,
+          201
+        ]
+      },
+      "values": [],
+      "medications": [],
+      "diagnoses": [
+        {
+          "code": "M16.1",
+          "text": "Primární koxartróza vpravo",
+          "box": [
+            183,
+            238,
+            440,
+            259
+          ]
+        },
+        {
+          "code": "D64.9",
+          "text": "Anémie",
+          "box": [
+            183,
+            253,
+            295,
+            271
+          ]
+        },
+        {
+          "code": "R73.0",
+          "text": "Prediabetes",
+          "box": [
+            182,
+            267,
+            324,
+            285
+          ]
+        },
+        {
+          "code": "E66.9",
+          "text": "Obezita (BMI 30+)",
+          "box": [
+            181,
+            281,
+            375,
+            300
+          ]
+        }
+      ],
+      "allergies": [],
+      "allergies_stated": "neguje",
+      "anamnesis": [
+        "Chronická medikace: bez medikace"
+      ],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Konkrétní plánovaný výkon ani číslování strany nejsou uvedeny."
+        },
+        {
+          "code": "other",
+          "detail": "Závěr (schéma nemá samostatné pole): Schopen výkonu. Anémie k došetření a léčbě před výkonem (PBM)."
+        },
+        {
+          "code": "other",
+          "detail": "V zápatí je uvedeno: Syntetický demo dokument, nejde o skutečného pacienta."
+        }
+      ]
+    },
+    {
+      "_hash": "1813535e911b",
+      "_expected": "match",
+      "_printed": {
+        "name": "Leoš Václavík",
+        "rc": "400716/267"
+      },
+      "_truth": {
+        "kind": "lab",
+        "date": "2026-10-08",
+        "hb": 108,
+        "plt": 410,
+        "wbc": 8.2,
+        "ferritin": 11,
+        "creatinine": 61
+      },
+      "_level": 2,
+      "file": "d-case-01-b.jpg",
+      "case_id": "case-01",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "laboratory",
+        "date": null,
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o., Oddělení klinické biochemie a hematologie"
+      },
+      "patient": {
+        "name": "Leoš Václavík",
+        "birth_number": "400716/267",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          200,
+          198,
+          317,
+          217
+        ],
+        "birth_number_box": [
+          579,
+          179,
+          679,
+          199
+        ]
+      },
+      "values": [
+        {
+          "code": "hb",
+          "label": "B-Hemoglobin",
+          "value": 108,
+          "unit": "g/l",
+          "ref_low": 120,
+          "ref_high": 160,
+          "sample_date": "2026-10-08",
+          "flag": "L",
+          "confidence": "high",
+          "box": [
+            145,
+            265,
+            529,
+            301
+          ]
+        },
+        {
+          "code": "plt",
+          "label": "B-Trombocyty",
+          "value": 410,
+          "unit": "10^9/l",
+          "ref_low": 150,
+          "ref_high": 400,
+          "sample_date": "2026-10-08",
+          "flag": "H",
+          "confidence": "high",
+          "box": [
+            147,
+            286,
+            555,
+            322
+          ]
+        },
+        {
+          "code": "wbc",
+          "label": "B-Leukocyty",
+          "value": 8.2,
+          "unit": "10^9/l",
+          "ref_low": 4,
+          "ref_high": 10,
+          "sample_date": "2026-10-08",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            150,
+            309,
+            557,
+            344
+          ]
+        },
+        {
+          "code": "ferritin",
+          "label": "S-Ferritin",
+          "value": 11,
+          "unit": "µg/l",
+          "ref_low": 15,
+          "ref_high": 150,
+          "sample_date": "2026-10-08",
+          "flag": "L",
+          "confidence": "high",
+          "box": [
+            152,
+            332,
+            540,
+            368
+          ]
+        },
+        {
+          "code": "creatinine",
+          "label": "S-Kreatinin",
+          "value": 61,
+          "unit": "µmol/l",
+          "ref_low": 44,
+          "ref_high": 104,
+          "sample_date": "2026-10-08",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            153,
+            354,
+            560,
+            390
+          ]
+        }
+      ],
+      "medications": [],
+      "diagnoses": [],
+      "allergies": [],
+      "allergies_stated": null,
+      "anamnesis": [],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Datum dokumentu není uvedeno; uvedeno je pouze datum odběru 8. 10. 2026."
+        }
+      ]
+    },
+    {
+      "_hash": "9748d78e7df0",
+      "_expected": "match",
+      "_printed": {
+        "name": "Leoš Václavík",
+        "rc": "400716/267"
+      },
+      "_truth": {
+        "kind": "ecg",
+        "date": "2026-10-06",
+        "text": "Sinusový rytmus 78/min, osa intermediární, bez poruch převodu, bez ischemických změn."
+      },
+      "_level": 3,
+      "file": "d-case-01-c.jpg",
+      "case_id": "case-01",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "ecg",
+        "date": null,
+        "page": null,
+        "legibility": "partial",
+        "source_institution": "Nemocnice Testov, p. o."
+      },
+      "patient": {
+        "name": "Leoš Václavík",
+        "birth_number": null,
+        "insurer": "111",
+        "confidence": "medium",
+        "name_box": [
+          277,
+          193,
+          389,
+          216
+        ],
+        "birth_number_box": [
+          623,
+          213,
+          719,
+          232
+        ]
+      },
+      "values": [],
+      "medications": [],
+      "diagnoses": [],
+      "allergies": [],
+      "allergies_stated": null,
+      "anamnesis": [],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "illegible",
+          "detail": "Rodné číslo nelze z fotografie spolehlivě přečíst celé."
+        },
+        {
+          "code": "illegible",
+          "detail": "Datum vyšetření nelze spolehlivě přečíst; část údaje překrývá podpis."
+        },
+        {
+          "code": "illegible",
+          "detail": "Popis EKG je částečně nečitelný, zejména číselná hodnota frekvence. Čitelné části: „sinusový rytmus“, „osa intermediální“, „bez poruch převodu“, „bez ischemických změn“."
+        },
+        {
+          "code": "other",
+          "detail": "Závěr dokumentu: „EKG v normě.“"
+        },
+        {
+          "code": "other",
+          "detail": "Ručně dopsáno: „Kontrola za 14 dní!“ Razítko: „OVĚŘENO“."
+        },
+        {
+          "code": "illegible",
+          "detail": "Drobný text pod názvem instituce a v zápatí není spolehlivě čitelný."
+        }
+      ]
+    },
+    {
+      "_hash": "4c178e19ae39",
+      "_expected": "match",
+      "_printed": {
+        "name": "Aurora Hoeger",
+        "rc": "235530/0310"
+      },
+      "_truth": {
+        "kind": "preop",
+        "date": "2026-10-05",
+        "dx": [
+          "K02.1 Zubní kaz dentinu, mnohočetný"
+        ],
+        "meds": [],
+        "allergies": [],
+        "conclusion": "Dítě zdravé, očkování dle kalendáře. Bez kontraindikací k výkonu v celkové anestezii."
+      },
+      "_level": 2,
+      "file": "d-case-02-a.jpg",
+      "case_id": "case-02",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "preoperative_exam",
+        "date": "2026-10-05",
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o."
+      },
+      "patient": {
+        "name": "Aurora Hoeger",
+        "birth_number": "235530/0310",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          199,
+          206,
+          324,
+          230
+        ],
+        "birth_number_box": [
+          562,
+          180,
+          673,
+          203
+        ]
+      },
+      "values": [],
+      "medications": [],
+      "diagnoses": [
+        {
+          "code": "K02.1",
+          "text": "Zubní kaz dentinu, mnohočetný",
+          "box": [
+            153,
+            266,
+            430,
+            300
+          ]
+        }
+      ],
+      "allergies": [],
+      "allergies_stated": "neguje",
+      "anamnesis": [
+        "Chronická medikace: bez medikace",
+        "Závěr: Dítě zdravé, očkování dle kalendáře. Bez kontraindikací k výkonu v celkové anestezii."
+      ],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Číslo strany není uvedeno. Konkrétní plánovaný výkon není uveden; dokument zmiňuje pouze výkon v celkové anestezii."
+        }
+      ]
+    },
+    {
+      "_hash": "c2da529d2b25",
+      "_expected": "match",
+      "_printed": {
+        "name": "Aurora Hoeger",
+        "rc": "235530/0310"
+      },
+      "_truth": {
+        "kind": "lab",
+        "date": "2026-10-07",
+        "hb": 121,
+        "plt": 260,
+        "wbc": 9.1
+      },
+      "_level": 1,
+      "file": "d-case-02-b.jpg",
+      "case_id": "case-02",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "laboratory",
+        "date": null,
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o., Oddělení klinické biochemie a hematologie"
+      },
+      "patient": {
+        "name": "Aurora Hoeger",
+        "birth_number": "235530/0310",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          226,
+          166,
+          362,
+          185
+        ],
+        "birth_number_box": [
+          627,
+          181,
+          745,
+          198
+        ]
+      },
+      "values": [
+        {
+          "code": "hb",
+          "label": "B-Hemoglobin",
+          "value": 121,
+          "unit": "g/l",
+          "ref_low": 120,
+          "ref_high": 160,
+          "sample_date": "2026-10-07",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            157,
+            247,
+            561,
+            275
+          ]
+        },
+        {
+          "code": "plt",
+          "label": "B-Trombocyty",
+          "value": 260,
+          "unit": "10^9/l",
+          "ref_low": 150,
+          "ref_high": 400,
+          "sample_date": "2026-10-07",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            155,
+            270,
+            587,
+            299
+          ]
+        },
+        {
+          "code": "wbc",
+          "label": "B-Leukocyty",
+          "value": 9.1,
+          "unit": "10^9/l",
+          "ref_low": 4,
+          "ref_high": 10,
+          "sample_date": "2026-10-07",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            153,
+            294,
+            587,
+            322
+          ]
+        }
+      ],
+      "medications": [],
+      "diagnoses": [],
+      "allergies": [],
+      "allergies_stated": null,
+      "anamnesis": [],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Datum dokumentu není uvedeno; uvedeno je pouze datum odběru."
+        },
+        {
+          "code": "other",
+          "detail": "V zápatí je uvedeno: „Syntetický demo dokument, nejde o skutečného pacienta.“"
+        }
+      ]
+    },
+    {
+      "_hash": "2bd0b14f83d8",
+      "_expected": "match",
+      "_printed": {
+        "name": "Jiřina Šáchová",
+        "rc": "735405/9284"
+      },
+      "_truth": {
+        "kind": "preop",
+        "date": "2026-10-09",
+        "dx": [
+          "D25.9 Leiomyom dělohy",
+          "I10 Esenciální hypertenze",
+          "D50.0 Sideropenická anémie",
+          "R73.0 Prediabetes"
+        ],
+        "meds": [
+          "Tenoretic 50 mg/12,5 mg (atenolol, chlortalidon) 1-0-0"
+        ],
+        "allergies": []
+      },
+      "_level": 2,
+      "file": "d-case-03-a.jpg",
+      "case_id": "case-03",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "preoperative_exam",
+        "date": "2026-10-09",
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o."
+      },
+      "patient": {
+        "name": "Jiřina Šáchová",
+        "birth_number": "735405/9284",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          271,
+          176,
+          393,
+          198
+        ],
+        "birth_number_box": [
+          636,
+          203,
+          747,
+          225
+        ]
+      },
+      "values": [],
+      "medications": [
+        {
+          "name": "Tenoretic",
+          "dose": "50 mg/12,5 mg",
+          "frequency": "1-0-0",
+          "confidence": "high",
+          "box": [
+            210,
+            325,
+            589,
+            366
+          ]
+        }
+      ],
+      "diagnoses": [
+        {
+          "code": "D25.9",
+          "text": "Leiomyom dělohy",
+          "box": [
+            220,
+            241,
+            397,
+            265
+          ]
+        },
+        {
+          "code": "I10",
+          "text": "Esenciální hypertenze",
+          "box": [
+            220,
+            255,
+            401,
+            280
+          ]
+        },
+        {
+          "code": "D50.0",
+          "text": "Sideropenická anémie",
+          "box": [
+            218,
+            268,
+            422,
+            295
+          ]
+        },
+        {
+          "code": "R73.0",
+          "text": "Prediabetes",
+          "box": [
+            215,
+            281,
+            346,
+            303
+          ]
+        }
+      ],
+      "allergies": [],
+      "allergies_stated": "neguje",
+      "anamnesis": [],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Konkrétní plánovaný výkon není uveden. Závěr zní: „Bez kontraindikací k plánovanému výkonu v celkové anestezii.“"
+        }
+      ]
+    },
+    {
+      "_hash": "4c582fb01014",
+      "_expected": "match",
+      "_printed": {
+        "name": "Jiřina Šáchová",
+        "rc": "735405/9284"
+      },
+      "_truth": {
+        "kind": "lab",
+        "date": "2026-10-09",
+        "hb": 112,
+        "plt": 440,
+        "wbc": 7.4,
+        "ferritin": 9,
+        "creatinine": 84
+      },
+      "_level": 1,
+      "file": "d-case-03-b.jpg",
+      "case_id": "case-03",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "laboratory",
+        "date": null,
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o., Oddělení klinické biochemie a hematologie"
+      },
+      "patient": {
+        "name": "Jiřina Šáchová",
+        "birth_number": "735405/9284",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          227,
+          166,
+          359,
+          185
+        ],
+        "birth_number_box": [
+          628,
+          181,
+          747,
+          198
+        ]
+      },
+      "values": [
+        {
+          "code": "hb",
+          "label": "B-Hemoglobin",
+          "value": 112,
+          "unit": "g/l",
+          "ref_low": 120,
+          "ref_high": 160,
+          "sample_date": "2026-10-09",
+          "flag": "L",
+          "confidence": "high",
+          "box": [
+            157,
+            247,
+            564,
+            274
+          ]
+        },
+        {
+          "code": "plt",
+          "label": "B-Trombocyty",
+          "value": 440,
+          "unit": "10^9/l",
+          "ref_low": 150,
+          "ref_high": 400,
+          "sample_date": "2026-10-09",
+          "flag": "H",
+          "confidence": "high",
+          "box": [
+            156,
+            270,
+            588,
+            299
+          ]
+        },
+        {
+          "code": "wbc",
+          "label": "B-Leukocyty",
+          "value": 7.4,
+          "unit": "10^9/l",
+          "ref_low": 4,
+          "ref_high": 10,
+          "sample_date": "2026-10-09",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            154,
+            294,
+            587,
+            322
+          ]
+        },
+        {
+          "code": "ferritin",
+          "label": "S-Ferritin",
+          "value": 9,
+          "unit": "μg/l",
+          "ref_low": 15,
+          "ref_high": 150,
+          "sample_date": "2026-10-09",
+          "flag": "L",
+          "confidence": "high",
+          "box": [
+            153,
+            317,
+            567,
+            345
+          ]
+        },
+        {
+          "code": "creatinine",
+          "label": "S-Kreatinin",
+          "value": 84,
+          "unit": "μmol/l",
+          "ref_low": 44,
+          "ref_high": 104,
+          "sample_date": "2026-10-09",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            151,
+            340,
+            586,
+            369
+          ]
+        }
+      ],
+      "medications": [],
+      "diagnoses": [],
+      "allergies": [],
+      "allergies_stated": null,
+      "anamnesis": [],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Datum vydání dokumentu není uvedeno; uvedeno je pouze datum odběru 9. 10. 2026."
+        },
+        {
+          "code": "other",
+          "detail": "Dokument obsahuje poznámku: „Syntetický demo dokument, nejde o skutečného pacienta.“"
+        }
+      ]
+    },
+    {
+      "_hash": "a40e0d40d552",
+      "_expected": "match",
+      "_printed": {
+        "name": "Jan Novák",
+        "rc": "700801/8556"
+      },
+      "_truth": {
+        "kind": "preop",
+        "date": "2026-10-02",
+        "dx": [
+          "M18.1 Primární artróza karpometakarpálního kloubu palce",
+          "I10 Esenciální hypertenze",
+          "E66.9 Obezita (BMI 30+)"
+        ],
+        "meds": [
+          "Hydrochlorothiazid 12,5 mg 1-0-0",
+          "Naproxen 220 mg p.p. při bolesti"
+        ],
+        "allergies": [],
+        "conclusion": "Schopen výkonu. Naproxen vysadit 3 dny před výkonem."
+      },
+      "_level": 2,
+      "file": "d-case-04-a.jpg",
+      "case_id": "case-04",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "preoperative_exam",
+        "date": "2026-10-02",
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o."
+      },
+      "patient": {
+        "name": "Jan Novák",
+        "birth_number": "700801/8556",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          250,
+          174,
+          340,
+          193
+        ],
+        "birth_number_box": [
+          630,
+          191,
+          743,
+          213
+        ]
+      },
+      "values": [],
+      "medications": [
+        {
+          "name": "Hydrochlorothiazid",
+          "dose": "12.5 mg",
+          "frequency": "1-0-0",
+          "confidence": "high",
+          "box": [
+            194,
+            315,
+            439,
+            341
+          ]
+        },
+        {
+          "name": "Naproxen",
+          "dose": "220 mg",
+          "frequency": "p.p. při bolesti",
+          "confidence": "high",
+          "box": [
+            194,
+            329,
+            432,
+            354
+          ]
+        }
+      ],
+      "diagnoses": [
+        {
+          "code": "M18.1",
+          "text": "Primární artróza karpometakarpálního kloubu palce",
+          "box": [
+            184,
+            242,
+            624,
+            277
+          ]
+        },
+        {
+          "code": "I10",
+          "text": "Esenciální hypertenze",
+          "box": [
+            184,
+            258,
+            389,
+            281
+          ]
+        },
+        {
+          "code": "E66.9",
+          "text": "Obezita (BMI 30+)",
+          "box": [
+            183,
+            271,
+            385,
+            294
+          ]
+        }
+      ],
+      "allergies": [],
+      "allergies_stated": "neguje",
+      "anamnesis": [],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Konkrétní plánovaný výkon ani číslování strany nejsou uvedeny."
+        }
+      ]
+    },
+    {
+      "_hash": "237b386dfb84",
+      "_expected": "match",
+      "_printed": {
+        "name": "Jan Novák",
+        "rc": "700801/8556"
+      },
+      "_truth": {
+        "kind": "lab",
+        "date": "2026-10-02",
+        "hb": 136,
+        "plt": 205,
+        "wbc": 4.6,
+        "creatinine": 92
+      },
+      "_level": 1,
+      "file": "d-case-04-b.jpg",
+      "case_id": "case-04",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "laboratory",
+        "date": null,
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o."
+      },
+      "patient": {
+        "name": "Jan Novák",
+        "birth_number": "700801/8556",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          191,
+          183,
+          287,
+          201
+        ],
+        "birth_number_box": [
+          593,
+          170,
+          712,
+          187
+        ]
+      },
+      "values": [
+        {
+          "code": "hb",
+          "label": "B-Hemoglobin",
+          "value": 136,
+          "unit": "g/l",
+          "ref_low": 120,
+          "ref_high": 160,
+          "sample_date": "2026-10-02",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            131,
+            257,
+            534,
+            284
+          ]
+        },
+        {
+          "code": "plt",
+          "label": "B-Trombocyty",
+          "value": 205,
+          "unit": "10^9/l",
+          "ref_low": 150,
+          "ref_high": 400,
+          "sample_date": "2026-10-02",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            132,
+            278,
+            564,
+            308
+          ]
+        },
+        {
+          "code": "wbc",
+          "label": "B-Leukocyty",
+          "value": 4.6,
+          "unit": "10^9/l",
+          "ref_low": 4,
+          "ref_high": 10,
+          "sample_date": "2026-10-02",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            134,
+            302,
+            565,
+            331
+          ]
+        },
+        {
+          "code": "creatinine",
+          "label": "S-Kreatinin",
+          "value": 92,
+          "unit": "µmol/l",
+          "ref_low": 44,
+          "ref_high": 104,
+          "sample_date": "2026-10-02",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            135,
+            326,
+            567,
+            354
+          ]
+        }
+      ],
+      "medications": [],
+      "diagnoses": [],
+      "allergies": [],
+      "allergies_stated": null,
+      "anamnesis": [],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Datum dokumentu není uvedeno; uvedeno je pouze datum odběru."
+        },
+        {
+          "code": "other",
+          "detail": "Dokument obsahuje poznámku: „Syntetický demo dokument, nejde o skutečného pacienta.“"
+        }
+      ]
+    },
+    {
+      "_hash": "d6e148e70004",
+      "_expected": "match",
+      "_printed": {
+        "name": "Jan Novák",
+        "rc": "700801/8556"
+      },
+      "_truth": {
+        "kind": "ecg",
+        "date": "2026-10-02",
+        "text": "Sinusový rytmus 70/min, osa doleva, známky hypertrofie levé komory, bez akutních změn."
+      },
+      "_level": 2,
+      "file": "d-case-04-c.jpg",
+      "case_id": "case-04",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "ecg",
+        "date": "2026-10-02",
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o., Kardiologická ambulance"
+      },
+      "patient": {
+        "name": "Jan Novák",
+        "birth_number": "700801/8556",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          262,
+          177,
+          349,
+          193
+        ],
+        "birth_number_box": [
+          632,
+          200,
+          744,
+          218
+        ]
+      },
+      "values": [],
+      "medications": [],
+      "diagnoses": [
+        {
+          "code": null,
+          "text": "Popis: Sinusový rytmus 70/min, osa doleva, známky hypertrofie levé komory, bez akutních změn.",
+          "box": [
+            194,
+            225,
+            834,
+            275
+          ]
+        },
+        {
+          "code": null,
+          "text": "Závěr: EKG v normě.",
+          "box": [
+            192,
+            263,
+            350,
+            286
+          ]
+        }
+      ],
+      "allergies": [],
+      "allergies_stated": null,
+      "anamnesis": [],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Popis a závěr EKG jsou přepsány v poli diagnoses jako nálezy bez přiřazení diagnózy či kódu MKN-10."
+        },
+        {
+          "code": "other",
+          "detail": "V zápatí je uvedeno: „Syntetický demo dokument, nejde o skutečného pacienta.“"
+        }
+      ]
+    },
+    {
+      "_hash": "5b1442578bc7",
+      "_expected": "match",
+      "_printed": {
+        "name": "Lenka Kohlová",
+        "rc": "835807/5429"
+      },
+      "_truth": {
+        "kind": "preop",
+        "date": "2026-10-07",
+        "dx": [
+          "G82.2 Paraplegie, chronická, po lézi míchy",
+          "L89.3 Dekubitus sakrální oblasti IV. stupně"
+        ],
+        "meds": [],
+        "allergies": [],
+        "conclusion": "Schopna výkonu. Laboratoř (KO, biochemie) doplní ambulance."
+      },
+      "_level": 1,
+      "file": "d-case-05-a.jpg",
+      "case_id": "case-05",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "preoperative_exam",
+        "date": "2026-10-07",
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o."
+      },
+      "patient": {
+        "name": "Lenka Kohlová",
+        "birth_number": "835807/5429",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          229,
+          167,
+          363,
+          184
+        ],
+        "birth_number_box": [
+          630,
+          180,
+          748,
+          200
+        ]
+      },
+      "values": [],
+      "medications": [],
+      "diagnoses": [
+        {
+          "code": "G82.2",
+          "text": "Paraplegie, chronická, po lézi míchy",
+          "box": [
+            179,
+            238,
+            502,
+            262
+          ]
+        },
+        {
+          "code": "L89.3",
+          "text": "Dekubitus sakrální oblasti IV. stupně",
+          "box": [
+            178,
+            253,
+            507,
+            277
+          ]
+        }
+      ],
+      "allergies": [],
+      "allergies_stated": "neguje",
+      "anamnesis": [
+        "bez medikace"
+      ],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Konkrétní plánovaný výkon ani číslování stránek nejsou uvedeny."
+        },
+        {
+          "code": "other",
+          "detail": "Laboratorní výsledky nejsou uvedeny. Závěr: „Schopna výkonu. Laboratoř (KO, biochemie) doplní ambulance.“"
+        },
+        {
+          "code": "other",
+          "detail": "V zápatí je uvedeno: „Syntetický demo dokument, nejde o skutečného pacienta.“"
+        }
+      ]
+    },
+    {
+      "_hash": "56a89774c89d",
+      "_expected": "match",
+      "_printed": {
+        "name": "Robert Tusin",
+        "rc": "770801/5524"
+      },
+      "_truth": {
+        "kind": "preop",
+        "date": "2026-10-12",
+        "dx": [
+          "J32.9 Chronická sinusitida",
+          "R09.0 Hypoxémie v anamnéze (2020)"
+        ],
+        "meds": [
+          "Clexane 0,4 ml s.c. 1x denně",
+          "Ventolin inhalátor 100 µg p.p.",
+          "Paracetamol 500 mg p.p."
+        ],
+        "allergies": [],
+        "conclusion": "Schopen výkonu. Clexane vysadit 24 h před výkonem."
+      },
+      "_level": 2,
+      "file": "d-case-06-a.jpg",
+      "case_id": "case-06",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "preoperative_exam",
+        "date": "2026-10-12",
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o."
+      },
+      "patient": {
+        "name": "Robert Tusin",
+        "birth_number": "770801/5524",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          278,
+          177,
+          384,
+          197
+        ],
+        "birth_number_box": [
+          638,
+          206,
+          744,
+          228
+        ]
+      },
+      "values": [],
+      "medications": [
+        {
+          "name": "Clexane",
+          "dose": "0,4 ml s.c.",
+          "frequency": "1x denně",
+          "confidence": "high",
+          "box": [
+            219,
+            297,
+            415,
+            326
+          ]
+        },
+        {
+          "name": "Ventolin inhalátor",
+          "dose": "100 µg",
+          "frequency": "p.p.",
+          "confidence": "high",
+          "box": [
+            216,
+            311,
+            425,
+            340
+          ]
+        },
+        {
+          "name": "Paracetamol",
+          "dose": "500 mg",
+          "frequency": "p.p.",
+          "confidence": "high",
+          "box": [
+            214,
+            325,
+            389,
+            351
+          ]
+        }
+      ],
+      "diagnoses": [
+        {
+          "code": "J32.9",
+          "text": "Chronická sinusitida",
+          "box": [
+            229,
+            242,
+            414,
+            269
+          ]
+        },
+        {
+          "code": "R09.0",
+          "text": "Hypoxémie v anamnéze (2020)",
+          "box": [
+            226,
+            256,
+            487,
+            288
+          ]
+        }
+      ],
+      "allergies": [],
+      "allergies_stated": "neguje",
+      "anamnesis": [
+        "Hypoxémie v anamnéze (2020)"
+      ],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Číslo strany ani konkrétní plánovaný výkon nejsou uvedeny."
+        },
+        {
+          "code": "other",
+          "detail": "Závěr dokumentu (schéma nemá samostatné pole): „Schopen výkonu. Clexane vysadit 24 h před výkonem.“"
+        }
+      ]
+    },
+    {
+      "_hash": "e077021f7079",
+      "_expected": "match",
+      "_printed": {
+        "name": "Robert Tusin",
+        "rc": "770801/5524"
+      },
+      "_truth": {
+        "kind": "lab",
+        "date": "2026-10-12",
+        "hb": 125,
+        "plt": 182,
+        "wbc": 6.1,
+        "creatinine": 78,
+        "inr": 1
+      },
+      "_level": 1,
+      "file": "d-case-06-b.jpg",
+      "case_id": "case-06",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "laboratory",
+        "date": null,
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o., Oddělení klinické biochemie a hematologie"
+      },
+      "patient": {
+        "name": "Robert Tusin",
+        "birth_number": "770801/5524",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          231,
+          168,
+          349,
+          185
+        ],
+        "birth_number_box": [
+          631,
+          184,
+          745,
+          201
+        ]
+      },
+      "values": [
+        {
+          "code": "hb",
+          "label": "B-Hemoglobin",
+          "value": 125,
+          "unit": "g/l",
+          "ref_low": 120,
+          "ref_high": 160,
+          "sample_date": "2026-10-12",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            161,
+            247,
+            563,
+            276
+          ]
+        },
+        {
+          "code": "plt",
+          "label": "B-Trombocyty",
+          "value": 182,
+          "unit": "10^9/l",
+          "ref_low": 150,
+          "ref_high": 400,
+          "sample_date": "2026-10-12",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            159,
+            270,
+            591,
+            300
+          ]
+        },
+        {
+          "code": "wbc",
+          "label": "B-Leukocyty",
+          "value": 6.1,
+          "unit": "10^9/l",
+          "ref_low": 4,
+          "ref_high": 10,
+          "sample_date": "2026-10-12",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            158,
+            294,
+            590,
+            323
+          ]
+        },
+        {
+          "code": "inr",
+          "label": "P-PT INR",
+          "value": 1,
+          "unit": null,
+          "ref_low": 0.8,
+          "ref_high": 1.2,
+          "sample_date": "2026-10-12",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            157,
+            316,
+            513,
+            344
+          ]
+        },
+        {
+          "code": "creatinine",
+          "label": "S-Kreatinin",
+          "value": 78,
+          "unit": "µmol/l",
+          "ref_low": 44,
+          "ref_high": 104,
+          "sample_date": "2026-10-12",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            155,
+            339,
+            586,
+            369
+          ]
+        }
+      ],
+      "medications": [],
+      "diagnoses": [],
+      "allergies": [],
+      "allergies_stated": null,
+      "anamnesis": [],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Datum dokumentu není uvedeno; uvedeno je pouze datum odběru. Číslování stran není uvedeno."
+        },
+        {
+          "code": "other",
+          "detail": "U P-PT INR není uvedena jednotka."
+        },
+        {
+          "code": "other",
+          "detail": "V patičce je uvedeno: „Syntetický demo dokument, nejde o skutečného pacienta.“"
+        }
+      ]
+    },
+    {
+      "_hash": "b4a165ff1eff",
+      "_expected": "match",
+      "_printed": {
+        "name": "Robert Tusin",
+        "rc": "770801/5524"
+      },
+      "_truth": {
+        "kind": "ecg",
+        "date": "2026-10-12",
+        "text": "Sinusový rytmus 82/min, osa intermediární, bez patologie."
+      },
+      "_level": 2,
+      "file": "d-case-06-c.jpg",
+      "case_id": "case-06",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "ecg",
+        "date": "2026-10-12",
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o., Kardiologická ambulance"
+      },
+      "patient": {
+        "name": "Robert Tusin",
+        "birth_number": "770801/5524",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          201,
+          196,
+          311,
+          215
+        ],
+        "birth_number_box": [
+          579,
+          178,
+          689,
+          197
+        ]
+      },
+      "values": [
+        {
+          "code": "other",
+          "label": "Sinusový rytmus",
+          "value": 82,
+          "unit": "/min",
+          "ref_low": null,
+          "ref_high": null,
+          "sample_date": null,
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            198,
+            246,
+            378,
+            269
+          ]
+        }
+      ],
+      "medications": [],
+      "diagnoses": [],
+      "allergies": [],
+      "allergies_stated": null,
+      "anamnesis": [
+        "Popis: Sinusový rytmus 82/min, osa intermediární, bez patologie.",
+        "Závěr: EKG v normě."
+      ],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Textový popis a závěr EKG jsou zapsány v poli anamnesis, protože schéma nemá samostatné pole pro nález EKG. Hodnota 82/min je údaj z EKG, nikoli laboratorní výsledek; datum odběru se na ni nevztahuje."
+        }
+      ]
+    },
+    {
+      "_hash": "e5b1fab5aa97",
+      "_expected": "match",
+      "_printed": {
+        "name": "Tomáš Nedbal",
+        "rc": "740621/3661"
+      },
+      "_truth": {
+        "kind": "preop",
+        "date": "2026-10-08",
+        "dx": [
+          "K80.2 Cholecystolitiáza",
+          "K21.0 Refluxní choroba jícnu"
+        ],
+        "meds": [
+          "Helicid 20 mg 1-0-0"
+        ],
+        "allergies": []
+      },
+      "_level": 1,
+      "file": "d-case-07-a.jpg",
+      "case_id": "case-07",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "preoperative_exam",
+        "date": "2026-10-08",
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o."
+      },
+      "patient": {
+        "name": "Tomáš Nedbal",
+        "birth_number": "740621/3661",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          222,
+          166,
+          350,
+          184
+        ],
+        "birth_number_box": [
+          627,
+          179,
+          744,
+          195
+        ]
+      },
+      "values": [],
+      "medications": [
+        {
+          "name": "Helicid",
+          "dose": "20 mg",
+          "frequency": "1-0-0",
+          "confidence": "high",
+          "box": [
+            170,
+            299,
+            326,
+            318
+          ]
+        }
+      ],
+      "diagnoses": [
+        {
+          "code": "K80.2",
+          "text": "Cholecystolitiáza",
+          "box": [
+            172,
+            239,
+            354,
+            258
+          ]
+        },
+        {
+          "code": "K21.0",
+          "text": "Refluxní choroba jícnu",
+          "box": [
+            171,
+            253,
+            394,
+            273
+          ]
+        }
+      ],
+      "allergies": [],
+      "allergies_stated": "neguje",
+      "anamnesis": [],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Číslování stran není uvedeno. Konkrétní plánovaný výkon není uveden; závěr zní: „Bez kontraindikací k plánovanému výkonu v celkové anestezii.“"
+        }
+      ]
+    },
+    {
+      "_hash": "615e952471cb",
+      "_expected": "match",
+      "_printed": {
+        "name": "Tomáš Nedbal",
+        "rc": "740621/3661"
+      },
+      "_truth": {
+        "kind": "lab",
+        "date": "2026-10-08",
+        "hb": 148,
+        "plt": 231,
+        "wbc": 6.7,
+        "creatinine": 88
+      },
+      "_level": 2,
+      "file": "d-case-07-b.jpg",
+      "case_id": "case-07",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "laboratory",
+        "date": null,
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o."
+      },
+      "patient": {
+        "name": "Tomáš Nedbal",
+        "birth_number": "740621/3661",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          201,
+          196,
+          322,
+          214
+        ],
+        "birth_number_box": [
+          578,
+          180,
+          688,
+          198
+        ]
+      },
+      "values": [
+        {
+          "code": "hb",
+          "label": "B-Hemoglobin",
+          "value": 148,
+          "unit": "g/l",
+          "ref_low": 120,
+          "ref_high": 160,
+          "sample_date": "2026-10-08",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            146,
+            265,
+            529,
+            297
+          ]
+        },
+        {
+          "code": "plt",
+          "label": "B-Trombocyty",
+          "value": 231,
+          "unit": "10^9/l",
+          "ref_low": 150,
+          "ref_high": 400,
+          "sample_date": "2026-10-08",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            148,
+            286,
+            558,
+            320
+          ]
+        },
+        {
+          "code": "wbc",
+          "label": "B-Leukocyty",
+          "value": 6.7,
+          "unit": "10^9/l",
+          "ref_low": 4,
+          "ref_high": 10,
+          "sample_date": "2026-10-08",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            150,
+            308,
+            558,
+            342
+          ]
+        },
+        {
+          "code": "creatinine",
+          "label": "S-Kreatinin",
+          "value": 88,
+          "unit": "µmol/l",
+          "ref_low": 44,
+          "ref_high": 104,
+          "sample_date": "2026-10-08",
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            152,
+            331,
+            560,
+            364
+          ]
+        }
+      ],
+      "medications": [],
+      "diagnoses": [],
+      "allergies": [],
+      "allergies_stated": null,
+      "anamnesis": [],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Datum dokumentu není uvedeno; uvedeno je pouze datum odběru."
+        },
+        {
+          "code": "other",
+          "detail": "V zápatí je uvedeno: „Syntetický demo dokument, nejde o skutečného pacienta.“"
+        }
+      ]
+    },
+    {
+      "_hash": "d8b328fbe034",
+      "_expected": "match",
+      "_printed": {
+        "name": "Tomáš Nedbal",
+        "rc": "740621/3661"
+      },
+      "_truth": {
+        "kind": "ecg",
+        "date": "2026-10-08",
+        "text": "Sinusový rytmus 64/min, osa intermediární, bez patologie."
+      },
+      "_level": 1,
+      "file": "d-case-07-c.jpg",
+      "case_id": "case-07",
+      "model": "gpt-6.1-sol-2026-09-29",
+      "document": {
+        "type": "ecg",
+        "date": "2026-10-08",
+        "page": null,
+        "legibility": "good",
+        "source_institution": "Nemocnice Testov, p. o., Kardiologická ambulance"
+      },
+      "patient": {
+        "name": "Tomáš Nedbal",
+        "birth_number": "740621/3661",
+        "insurer": "111",
+        "confidence": "high",
+        "name_box": [
+          192,
+          178,
+          322,
+          195
+        ],
+        "birth_number_box": [
+          599,
+          169,
+          716,
+          185
+        ]
+      },
+      "values": [
+        {
+          "code": "other",
+          "label": "Popis",
+          "value": "Sinusový rytmus 64/min, osa intermediární, bez patologie.",
+          "unit": null,
+          "ref_low": null,
+          "ref_high": null,
+          "sample_date": null,
+          "flag": null,
+          "confidence": "high",
+          "box": [
+            127,
+            225,
+            635,
+            252
+          ]
+        }
+      ],
+      "medications": [],
+      "diagnoses": [
+        {
+          "code": null,
+          "text": "Závěr: EKG v normě.",
+          "box": [
+            129,
+            261,
+            299,
+            279
+          ]
+        }
+      ],
+      "allergies": [],
+      "allergies_stated": null,
+      "anamnesis": [],
+      "planned_procedure": null,
+      "issues": [
+        {
+          "code": "other",
+          "detail": "Popis EKG je uložen jako textová položka v values, nikoli jako laboratorní hodnota. Dokument uvádí: „Syntetický demo dokument, nejde o skutečného pacienta.“"
+        }
+      ]
+    },
+    {
+      "file": "d-case-03-m.jpg",
+      "case_id": "case-03",
+      "_printed": {
+        "name": "Jiřina Šáchová",
+        "rc": "735405/9284"
+      },
+      "_truth": {
+        "kind": "meds",
+        "date": "2026-10-09",
+        "meds": [
+          {
+            "name": "Tenoretic",
+            "strength": "50 mg/12,5 mg",
+            "substance": "atenolol, chlortalidon",
+            "dose": "1-0-0",
+            "since": "1998",
+            "fhir": "Atenolol 50 MG / Chlorthalidone 25 MG Oral Tablet"
+          }
+        ]
+      },
+      "_level": 2,
+      "document": {
+        "type": "medication_list",
+        "date": "2026-10-09"
+      }
+    },
+    {
+      "file": "d-case-04-m.jpg",
+      "case_id": "case-04",
+      "_printed": {
+        "name": "Jan Novák",
+        "rc": "700801/8556"
+      },
+      "_truth": {
+        "kind": "meds",
+        "date": "2026-10-02",
+        "meds": [
+          {
+            "name": "Hydrochlorothiazid Léčiva",
+            "strength": "12,5 mg",
+            "substance": "hydrochlorothiazid",
+            "dose": "1-0-0",
+            "since": "1989",
+            "fhir": "Hydrochlorothiazide 12.5 MG"
+          },
+          {
+            "name": "Naproxen",
+            "strength": "220 mg",
+            "substance": "naproxen sodná sůl",
+            "dose": "dle potřeby, max. 2× denně",
+            "since": "2024",
+            "fhir": "Naproxen sodium 220 MG Oral Tablet"
+          }
+        ]
+      },
+      "_level": 1,
+      "document": {
+        "type": "medication_list",
+        "date": "2026-10-02"
+      }
+    },
+    {
+      "file": "d-case-05-m.jpg",
+      "case_id": "case-05",
+      "_printed": {
+        "name": "Lenka Kohlová",
+        "rc": "835807/5429"
+      },
+      "_truth": {
+        "kind": "meds",
+        "date": "2026-10-07",
+        "meds": [
+          {
+            "name": "Naproxen",
+            "strength": "220 mg",
+            "substance": "naproxen sodná sůl",
+            "dose": "dle potřeby při bolesti",
+            "since": "2025",
+            "fhir": "Naproxen sodium 220 MG Oral Tablet"
+          }
+        ]
+      },
+      "_level": 3,
+      "document": {
+        "type": "medication_list",
+        "date": "2026-10-07"
+      }
+    },
+    {
+      "file": "d-case-06-m.jpg",
+      "case_id": "case-06",
+      "_printed": {
+        "name": "Robert Tusin",
+        "rc": "770801/5524"
+      },
+      "_truth": {
+        "kind": "meds",
+        "date": "2026-10-12",
+        "meds": [
+          {
+            "name": "Clexane",
+            "strength": "4000 IU (40 mg)/0,4 ml",
+            "substance": "enoxaparin sodná sůl",
+            "dose": "0-0-1 s.c.",
+            "since": "2020",
+            "fhir": "0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe"
+          },
+          {
+            "name": "Ventolin inhalátor",
+            "strength": "100 µg/dávka",
+            "substance": "salbutamol",
+            "dose": "1–2 vdechy dle potřeby",
+            "since": "2020",
+            "fhir": "Albuterol 0.09 MG/ACTUAT Metered Dose Inhaler"
+          },
+          {
+            "name": "Paralen",
+            "strength": "500 mg",
+            "substance": "paracetamol",
+            "dose": "dle potřeby, max. 4× denně",
+            "since": "2020",
+            "fhir": "Acetaminophen 500 MG Oral Tablet"
+          }
+        ]
+      },
+      "_level": 2,
+      "document": {
+        "type": "medication_list",
+        "date": "2026-10-12"
+      }
+    }
+  ]
+}
