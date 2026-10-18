@@ -122,6 +122,25 @@ describe("přihlášení přes Bank iD", () => {
     expect(noCookie.headers.get("location")).toMatch(/bankid=vyprselo$/);
   });
 
+  test("za proxy (Azure) použije veřejnou doménu, ne adresu, na které Next.js poslouchá", async () => {
+    // Next.js za proxy skládá req.url z vlastního hostname:port (localhost:3000), veřejná doména je jen v hlavičkách.
+    const proxied = { host: "klidka.cz", "x-forwarded-proto": "https" };
+    await createPatient({ patient: { birthNumber: "9001011237", birthDate: "1990-01-01" } });
+    person = { birthdate: "1990-01-01", birthnumber: "9001011237" };
+    const res = await start(request("GET", "/api/auth/bankid", { headers: proxied }));
+    const location = new URL(res.headers.get("location")!);
+    expect(location.searchParams.get("redirect_uri")).toBe("https://klidka.cz/api/auth/bankid/callback");
+
+    const cookie = res.headers.get("set-cookie")!.split(";")[0];
+    const pending = JSON.parse(decodeURIComponent(cookie.split("=").slice(1).join("=")));
+    idTokenNonce = pending.nonce;
+    const back = await callback(request("GET", `/api/auth/bankid/callback?code=kod&state=${pending.state}`, { cookie, headers: proxied }));
+    expect(back.headers.get("location")).toBe("https://klidka.cz/patient");
+
+    const failed = await callback(request("GET", "/api/auth/bankid/callback?code=kod&state=x", { headers: proxied }));
+    expect(failed.headers.get("location")).toBe("https://klidka.cz/login?bankid=vyprselo");
+  });
+
   test("bez nastavení Bank iD tlačítko jen vrátí zprávu", async () => {
     vi.stubEnv("BANKID_CLIENT_ID", "");
     const res = await start(request("GET", "/api/auth/bankid"));

@@ -81,10 +81,16 @@ function assertSameOrigin(req: NextRequest) {
 function allowedOrigins(req: NextRequest) {
   const configured = authEnv().APP_ORIGIN?.split(",").map((o) => o.trim()).filter(Boolean);
   if (configured?.length) return configured;
+  return [requestOrigin(req)];
+}
+
+// Adresa, na kterou přišel prohlížeč (https://klidka.cz). Za proxy (Azure App Service) skládá Next.js req.url
+// z vlastního hostname:port (http://localhost:3000), skutečná doména je jen v hlavičkách Host / X-Forwarded-*.
+export function requestOrigin(req: NextRequest) {
   const host = req.headers.get("x-forwarded-host") ?? req.headers.get("host");
-  if (!host) return [req.nextUrl.origin];
+  if (!host) return req.nextUrl.origin;
   const proto = req.headers.get("x-forwarded-proto") ?? req.nextUrl.protocol.replace(":", "");
-  return [`${proto}://${host}`];
+  return `${proto}://${host}`;
 }
 
 export function parse<T>(schema: z.ZodType<T>, data: unknown): T {

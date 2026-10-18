@@ -1,13 +1,15 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { BANKID_COOKIE, BankidError, finish, type BankidPending } from "@/lib/server/bankid";
+import { requestOrigin } from "@/lib/server/http";
 import { authenticateBankid } from "@/lib/server/services/login";
 import { createSession, deleteSession, readSessionToken, setSessionCookie } from "@/lib/server/session";
 
 // GET /api/auth/bankid/callback: návrat z Bank iD. Ověří state, vymění kód za údaje o člověku, podle rodného čísla
 // a data narození najde pacienta a založí stejnou session jako běžné přihlášení (POST /api/auth/login).
 export async function GET(req: NextRequest) {
+  const origin = requestOrigin(req);
   const back = (reason: string) => {
-    const res = NextResponse.redirect(new URL(`/login?bankid=${reason}`, req.url));
+    const res = NextResponse.redirect(new URL(`/login?bankid=${reason}`, origin));
     res.cookies.set(BANKID_COOKIE, "", { path: "/api/auth/bankid", maxAge: 0 });
     return res;
   };
@@ -32,7 +34,7 @@ export async function GET(req: NextRequest) {
     // Vždy nová session (ochrana proti session fixation), stejně jako u běžného přihlášení.
     await deleteSession(readSessionToken(req));
     const { token } = await createSession(user.id);
-    const res = NextResponse.redirect(new URL(user.role === "patient" ? "/patient" : "/staff", req.url));
+    const res = NextResponse.redirect(new URL(user.role === "patient" ? "/patient" : "/staff", origin));
     setSessionCookie(res, token);
     res.cookies.set(BANKID_COOKIE, "", { path: "/api/auth/bankid", maxAge: 0 });
     return res;
